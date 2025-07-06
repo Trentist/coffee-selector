@@ -1,38 +1,29 @@
+"use client";
+import { Suspense } from "react";
 import { displayService } from "@/odoo-schema-full/services/display-service";
 import { categoryProductService } from "@/odoo-schema-full/services/category-product-service";
-import ShopWrapperClient from "@/components/shop/ShopWrapperClient";
+import { ShopWrapper } from "@/components/shop";
+import { LoadingStatus } from "@/components/status/pages/StatusPages";
 
 export default async function CartItemsPage() {
-	try {
-		// جلب البيانات من النظام الجديد الموحد
-		const [productsResult, categoriesResult] = await Promise.allSettled([
-			displayService.getAllProducts(),
-			categoryProductService.getAllCategories()
-		]);
+	// جلب البيانات من النظام الجديد الموحد
+	const productsResult = await displayService.getAllProducts();
+	const categoriesResult = await categoryProductService.getAllCategories();
 
-		const products = productsResult.status === 'fulfilled' && productsResult.value.success 
-			? productsResult.value.data || [] 
-			: [];
-		
-		const categories = categoriesResult.status === 'fulfilled' && categoriesResult.value.success
-			? categoriesResult.value.data || []
-			: [];
+	const products = productsResult.success ? productsResult.data || [] : [];
+	const categories = categoriesResult.success
+		? categoriesResult.data || []
+		: [];
 
-		return (
-			<ShopWrapperClient
-				products={products}
-				categories={categories}
-				initialPage="cart"
-			/>
-		);
-	} catch (error) {
-		console.error("Error fetching cart data:", error);
-		return (
-			<ShopWrapperClient
-				products={[]}
-				categories={[]}
-				initialPage="cart"
-			/>
-		);
-	}
+	return (
+		<>
+			<Suspense fallback={<LoadingStatus statusType="loading" />}>
+				<ShopWrapper
+					products={products}
+					categories={categories}
+					initialPage="cart"
+				/>
+			</Suspense>
+		</>
+	);
 }

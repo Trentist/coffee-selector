@@ -2,7 +2,7 @@
  * Category & Product Service - خدمة الفئات والمنتجات
  * خدمة شاملة لإدارة الفئات والمنتجات مع جميع الاستعلامات العاملة
  */
-
+import { getServerApolloClient } from "./lib/apolloServer";
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import { gql } from "graphql-request";
@@ -245,7 +245,7 @@ export class CategoryProductService {
 	private client: ApolloClient<any>;
 
 	constructor(client?: ApolloClient<any>) {
-		this.client = client || categoryProductApolloClient;
+		this.client = client || getServerApolloClient();
 	}
 
 	// ============================================================================
