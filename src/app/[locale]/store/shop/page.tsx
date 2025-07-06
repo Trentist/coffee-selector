@@ -1,8 +1,7 @@
-"use client";
-
 import { displayService } from "@/odoo-schema-full/services/display-service";
 import { categoryProductService } from "@/odoo-schema-full/services/category-product-service";
 import { ShopWrapper } from "@/components/shop";
+import ShopPageClient from "./pageClient";
 
 // Server Component: fetch data on the server
 export default async function ShopPage() {
@@ -15,7 +14,7 @@ export default async function ShopPage() {
 	console.log("Fetched categories:", categories);
 
 	return (
-		<ShopWrapper
+		<ShopPageClient
 			products={products}
 			categories={categories}
 			initialPage="shop"
