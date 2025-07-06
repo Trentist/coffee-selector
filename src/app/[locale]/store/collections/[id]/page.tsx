@@ -59,17 +59,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 	const { id } = await params;
 	const categoryId = parseInt(id);
 
-	// جلب البيانات من النظام الجديد الموحد
-	const productsResult = await displayService.getAllProducts();
-	const categoriesResult = await categoryProductService.getAllCategories();
+	try {
+		// جلب البيانات من النظام الجديد الموحد
+		const [productsResult, categoriesResult] = await Promise.allSettled([
+			displayService.getAllProducts(),
+			categoryProductService.getAllCategories()
+		]);
 
-	const products = productsResult.success ? productsResult.data || [] : [];
-	const categories = categoriesResult.success
-		? categoriesResult.data || []
-		: [];
+		const products = productsResult.status === 'fulfilled' && productsResult.value.success 
+			? productsResult.value.data || [] 
+			: [];
+		
+		const categories = categoriesResult.status === 'fulfilled' && categoriesResult.value.success
+			? categoriesResult.value.data || []
+			: [];
 
-	return (
-		<>
+		return (
 			<Suspense fallback={<LoadingStatus statusType="loading" />}>
 				<ShopWrapper
 					products={products}
@@ -78,6 +83,18 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 					initialCategoryId={categoryId}
 				/>
 			</Suspense>
-		</>
-	);
+		);
+	} catch (error) {
+		console.error("Error fetching category data:", error);
+		return (
+			<Suspense fallback={<LoadingStatus statusType="loading" />}>
+				<ShopWrapper
+					products={[]}
+					categories={[]}
+					initialPage="category"
+					initialCategoryId={categoryId}
+				/>
+			</Suspense>
+		);
+	}
 }
