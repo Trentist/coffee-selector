@@ -1,3 +1,5 @@
+"use client";
+
 import { displayService } from "@/odoo-schema-full/services/display-service";
 import { categoryProductService } from "@/odoo-schema-full/services/category-product-service";
 import { ShopWrapper } from "@/components/shop";
