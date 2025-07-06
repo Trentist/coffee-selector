@@ -1,10 +1,8 @@
-import { Suspense } from "react";
 import { displayService } from "@/odoo-schema-full/services/display-service";
 import { categoryProductService } from "@/odoo-schema-full/services/category-product-service";
-import { ShopWrapper } from "@/components/shop";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { LoadingStatus } from "@/components/status/pages/StatusPages";
+import ShopWrapperClient from "@/components/shop/ShopWrapperClient";
 
 interface CategoryPageProps {
 	params: Promise<{ id: string; locale: string }>;
@@ -75,26 +73,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 			: [];
 
 		return (
-			<Suspense fallback={<LoadingStatus statusType="loading" />}>
-				<ShopWrapper
-					products={products}
-					categories={categories}
-					initialPage="category"
-					initialCategoryId={categoryId}
-				/>
-			</Suspense>
+			<ShopWrapperClient
+				products={products}
+				categories={categories}
+				initialPage="category"
+				initialCategoryId={categoryId}
+			/>
 		);
 	} catch (error) {
 		console.error("Error fetching category data:", error);
 		return (
-			<Suspense fallback={<LoadingStatus statusType="loading" />}>
-				<ShopWrapper
-					products={[]}
-					categories={[]}
-					initialPage="category"
-					initialCategoryId={categoryId}
-				/>
-			</Suspense>
+			<ShopWrapperClient
+				products={[]}
+				categories={[]}
+				initialPage="category"
+				initialCategoryId={categoryId}
+			/>
 		);
 	}
 }

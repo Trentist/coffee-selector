@@ -1,9 +1,6 @@
 import { displayService } from "@/odoo-schema-full/services/display-service";
 import { categoryProductService } from "@/odoo-schema-full/services/category-product-service";
-import { ShopWrapper } from "@/components/shop";
-import ShopPageClient from "./pageClient";
-import { Suspense } from "react";
-import { LoadingStatus } from "@/components/status/pages/StatusPages";
+import ShopWrapperClient from "@/components/shop/ShopWrapperClient";
 
 // Server Component: fetch data on the server
 export default async function ShopPage() {
@@ -30,25 +27,21 @@ export default async function ShopPage() {
 		console.log("Fetched categories:", categories.length);
 
 		return (
-			<Suspense fallback={<LoadingStatus statusType="loading" />}>
-				<ShopPageClient
-					products={products}
-					categories={categories}
-					initialPage="shop"
-				/>
-			</Suspense>
+			<ShopWrapperClient
+				products={products}
+				categories={categories}
+				initialPage="shop"
+			/>
 		);
 	} catch (error) {
 		console.error("Error fetching shop data:", error);
 		// Return empty arrays to prevent crashes
 		return (
-			<Suspense fallback={<LoadingStatus statusType="loading" />}>
-				<ShopPageClient
-					products={[]}
-					categories={[]}
-					initialPage="shop"
-				/>
-			</Suspense>
+			<ShopWrapperClient
+				products={[]}
+				categories={[]}
+				initialPage="shop"
+			/>
 		);
 	}
 }
