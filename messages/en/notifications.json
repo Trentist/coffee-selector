@@ -1,0 +1,150 @@
+{
+	"success": {
+		"title": "Success",
+		"default": "Operation completed successfully",
+		"cart": {
+			"added": "Product added to cart",
+			"removed": "Product removed from cart",
+			"updated": "Cart updated",
+			"cleared": "Cart cleared",
+			"item_moved_to_wishlist": "Product moved to wishlist"
+		},
+		"order": {
+			"placed": "Order placed successfully",
+			"updated": "Order updated",
+			"cancelled": "Order cancelled",
+			"returned": "Order returned"
+		},
+		"auth": {
+			"login": "Login successful",
+			"register": "Account created successfully",
+			"logout": "Logout successful",
+			"password_changed": "Password changed successfully",
+			"password_reset": "Password reset link sent"
+		},
+		"profile": {
+			"updated": "Profile updated",
+			"address_added": "Address added successfully",
+			"address_updated": "Address updated successfully",
+			"address_deleted": "Address deleted successfully"
+		},
+		"wishlist": {
+			"added": "Product added to wishlist",
+			"removed": "Product removed from wishlist",
+			"cleared": "Wishlist cleared"
+		},
+		"payment": {
+			"successful": "Payment successful",
+			"method_saved": "Payment method saved",
+			"method_deleted": "Payment method deleted"
+		},
+		"newsletter": {
+			"subscribed": "Newsletter subscription successful",
+			"unsubscribed": "Newsletter unsubscribed"
+		}
+	},
+	"error": {
+		"title": "Error",
+		"default": "An error occurred",
+		"network": "Network connection error",
+		"validation": "Please check your input",
+		"server": "Server error",
+		"timeout": "Request timeout",
+		"unauthorized": "Unauthorized access",
+		"forbidden": "Access forbidden",
+		"not_found": "Resource not found",
+		"cart": {
+			"add_failed": "Failed to add product to cart",
+			"remove_failed": "Failed to remove product from cart",
+			"update_failed": "Failed to update cart",
+			"clear_failed": "Failed to clear cart"
+		},
+		"order": {
+			"place_failed": "Failed to place order",
+			"update_failed": "Failed to update order",
+			"cancel_failed": "Failed to cancel order"
+		},
+		"auth": {
+			"login_failed": "Login failed",
+			"register_failed": "Registration failed",
+			"password_change_failed": "Password change failed",
+			"password_reset_failed": "Password reset link failed"
+		},
+		"profile": {
+			"update_failed": "Profile update failed",
+			"address_add_failed": "Address add failed",
+			"address_update_failed": "Address update failed",
+			"address_delete_failed": "Address delete failed"
+		},
+		"payment": {
+			"failed": "Payment failed",
+			"method_save_failed": "Payment method save failed",
+			"method_delete_failed": "Payment method delete failed"
+		}
+	},
+	"warning": {
+		"title": "Warning",
+		"default": "Please be careful",
+		"session": {
+			"expiring": "Your session will expire soon",
+			"inactive": "Are you still there?",
+			"expired": "Your session has expired"
+		},
+		"cart": {
+			"expired": "Cart will expire soon",
+			"items_removed": "Some items removed from cart",
+			"stock_low": "Low stock available"
+		},
+		"order": {
+			"cancellation": "Order cannot be cancelled anymore",
+			"return_deadline": "Return deadline has passed"
+		},
+		"payment": {
+			"card_expiring": "Your card will expire soon",
+			"insufficient_funds": "Insufficient funds"
+		}
+	},
+	"info": {
+		"title": "Information",
+		"default": "Important information",
+		"cart": {
+			"empty": "Cart is empty",
+			"processing": "Processing your order",
+			"items_count": "{{count}} items in cart"
+		},
+		"order": {
+			"processing": "Processing your order",
+			"shipping": "Your order has been shipped",
+			"delivered": "Your order has been delivered",
+			"tracking_available": "You can now track your order"
+		},
+		"profile": {
+			"verification_required": "Please verify your email",
+			"profile_incomplete": "Your profile is incomplete"
+		},
+		"system": {
+			"maintenance": "System maintenance scheduled",
+			"update_available": "New update available"
+		}
+	},
+	"actions": {
+		"dismiss": "Dismiss",
+		"retry": "Retry",
+		"view_details": "View Details",
+		"continue": "Continue",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"save": "Save",
+		"delete": "Delete",
+		"edit": "Edit",
+		"add": "Add"
+	},
+	"time": {
+		"just_now": "Just now",
+		"minutes_ago": "{{count}} minutes ago",
+		"hours_ago": "{{count}} hours ago",
+		"days_ago": "{{count}} days ago",
+		"weeks_ago": "{{count}} weeks ago",
+		"months_ago": "{{count}} months ago"
+	}
+}

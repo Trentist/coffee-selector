@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-06-29T21:21:42.169Z",
+  "testDuration": 6388,
+  "successRate": 100,
+  "passedTests": 5,
+  "totalTests": 5,
+  "tests": {
+    "odoo": {
+      "success": true,
+      "products": 12,
+      "categories": 2
+    },
+    "translation": {
+      "success": true,
+      "validFiles": 2,
+      "totalKeys": 209
+    },
+    "components": {
+      "success": true,
+      "total": 243,
+      "chakra": 203,
+      "translated": 158,
+      "quality": 74
+    },
+    "configuration": {
+      "success": true,
+      "validConfigs": 4,
+      "totalConfigs": 4,
+      "results": {
+        "package.json": true,
+        "next.config.js": true,
+        "next-i18next.config.js": true,
+        "tsconfig.json": true
+      }
+    },
+    "build": {
+      "success": true,
+      "validScripts": 3,
+      "validDeps": 3,
+      "totalScripts": 3,
+      "totalDeps": 3
+    }
+  },
+  "summary": {
+    "dataConnectivity": "EXCELLENT",
+    "internationalization": "WORKING",
+    "componentArchitecture": "GOOD",
+    "projectSetup": "COMPLETE",
+    "buildReadiness": "READY"
+  },
+  "recommendations": []
+}

@@ -1,0 +1,89 @@
+{
+	"currencies": {
+		"AED": {
+			"name": "درهم إماراتي",
+			"symbol": "د.إ",
+			"code": "AED",
+			"country": "الإمارات العربية المتحدة"
+		},
+		"SAR": {
+			"name": "ريال سعودي",
+			"symbol": "ر.س",
+			"code": "SAR",
+			"country": "المملكة العربية السعودية"
+		},
+		"KWD": {
+			"name": "دينار كويتي",
+			"symbol": "د.ك",
+			"code": "KWD",
+			"country": "الكويت"
+		},
+		"QAR": {
+			"name": "ريال قطري",
+			"symbol": "ر.ق",
+			"code": "QAR",
+			"country": "قطر"
+		},
+		"BHD": {
+			"name": "دينار بحريني",
+			"symbol": "د.ب",
+			"code": "BHD",
+			"country": "البحرين"
+		},
+		"OMR": {
+			"name": "ريال عماني",
+			"symbol": "ر.ع",
+			"code": "OMR",
+			"country": "عمان"
+		},
+		"JOD": {
+			"name": "دينار أردني",
+			"symbol": "د.أ",
+			"code": "JOD",
+			"country": "الأردن"
+		},
+		"EGP": {
+			"name": "جنيه مصري",
+			"symbol": "ج.م",
+			"code": "EGP",
+			"country": "مصر"
+		}
+	},
+	"currency_selector": {
+		"title": "اختر العملة",
+		"current_currency": "العملة الحالية",
+		"change_currency": "تغيير العملة",
+		"select_currency": "اختر العملة المفضلة"
+	},
+	"price_format": {
+		"with_currency": "{{amount}} {{currency}}",
+		"with_symbol": "{{symbol}} {{amount}}",
+		"range": "{{min}} - {{max}} {{currency}}",
+		"from": "من {{amount}} {{currency}}",
+		"to": "إلى {{amount}} {{currency}}"
+	},
+	"countries": {
+		"AE": "الإمارات العربية المتحدة",
+		"SA": "المملكة العربية السعودية",
+		"KW": "الكويت",
+		"QA": "قطر",
+		"BH": "البحرين",
+		"OM": "عمان",
+		"EG": "مصر",
+		"MA": "المغرب",
+		"DZ": "الجزائر",
+		"TN": "تونس",
+		"LY": "ليبيا",
+		"LB": "لبنان",
+		"JO": "الأردن",
+		"PS": "فلسطين",
+		"SY": "سوريا",
+		"IQ": "العراق",
+		"YE": "اليمن",
+		"SD": "السودان",
+		"SO": "الصومال",
+		"US": "الولايات المتحدة الأمريكية",
+		"GB": "المملكة المتحدة",
+		"FR": "فرنسا"
+	}
+}

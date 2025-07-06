@@ -1,0 +1,14 @@
+{
+"saved_successfully": "تم حفظ العنوان بنجاح",
+"updated_successfully": "تم تحديث العنوان بنجاح",
+"deleted_successfully": "تم حذف العنوان بنجاح",
+"max_addresses_reached": "تم الوصول للحد الأقصى من العناوين",
+"max_addresses_registered_desc": "يمكنك حفظ {{max}} عناوين كحد أقصى",
+"max_addresses_guest_desc": "يمكنك حفظ {{max}} عناوين كحد أقصى للزوار",
+"guest_notice_title": "ملاحظة للزوار",
+"guest_notice_description": "سيتم حفظ عناوينك محلياً في المتصفح",
+"registered_notice_title": "ملاحظة للمستخدمين المسجلين",
+"registered_notice_description": "يمكنك حفظ {{max}} عناوين كحد أقصى",
+"name": "الاسم: {{name}}",
+"location": "الموقع: {{location}}"
+}

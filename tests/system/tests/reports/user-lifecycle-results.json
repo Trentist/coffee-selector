@@ -1,0 +1,208 @@
+{
+  "timestamp": "2025-06-29T23:53:19.839Z",
+  "testType": "User Lifecycle",
+  "realUser": "mohamed@coffeeselection.com",
+  "summary": {
+    "passed": 38,
+    "failed": 1,
+    "total": 39,
+    "successRate": "97.4"
+  },
+  "details": [
+    {
+      "name": "Unified Auth System exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth service uses GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Login page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Login form exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Login function exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard component exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Profile update function exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "User refresh function exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Orders service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Orders use GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Favorites page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Wishlist service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Wishlist uses GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cart page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cart service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cart uses GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Checkout page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Enhanced checkout exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Checkout hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoices page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Advanced orders service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Change password function exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Session validation exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Addresses service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Address entry component exists",
+      "status": "FAIL",
+      "details": "File src/components/shared/address-entry/index.tsx does not exist"
+    },
+    {
+      "name": "Reviews service exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Review system exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Notification system exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Toast notifications integrated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Session manager exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Token refresh exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Security manager exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Session validation exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL Client Configuration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth Service GraphQL Integration",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

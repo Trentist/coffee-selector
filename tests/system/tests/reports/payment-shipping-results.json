@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-06-29T23:53:20.312Z",
+  "testType": "Payment, Shipping and Invoice",
+  "realUser": "mohamed@coffeeselection.com",
+  "summary": {
+    "passed": 37,
+    "failed": 15,
+    "total": 52,
+    "successRate": "71.2"
+  },
+  "details": [
+    {
+      "name": "Checkout Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Enhanced Checkout Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Enhanced Checkout Hook",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Checkout Provider",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Payment Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL Payment Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Payment uses GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Payment API",
+      "status": "FAIL",
+      "details": "File src/pages/api/payment/index.ts does not exist"
+    },
+    {
+      "name": "Shipping Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Unified Shipping Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL Shipping Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Shipping Selector",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Real Shipping Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Aramex Integration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Real shipping uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/services/real-shipping.service.ts"
+    },
+    {
+      "name": "Addresses Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Address Entry Component",
+      "status": "FAIL",
+      "details": "File src/components/shared/address-entry/index.tsx does not exist"
+    },
+    {
+      "name": "Addresses use GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Orders Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Advanced Orders Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Orders use GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoices Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoice Display Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoice GraphQL Queries",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoices use GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/graphql/queries/invoices.ts"
+    },
+    {
+      "name": "Payment Status Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Order Success Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Payment status has state management",
+      "status": "FAIL",
+      "details": "Content not found in src/components/checkout/PaymentStatus.tsx"
+    },
+    {
+      "name": "Shipment Tracking Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Shipping service has tracking",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Unified Price Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Price Converter Hook",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/currency-system/hooks/usePriceConverter.ts"
+    },
+    {
+      "name": "Order Summary Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Order summary uses unified pricing",
+      "status": "FAIL",
+      "details": "Content not found in src/components/checkout/OrderSummary.tsx"
+    },
+    {
+      "name": "Payment methods supported",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Payment Methods API",
+      "status": "FAIL",
+      "details": "File src/pages/api/payment/methods.ts does not exist"
+    },
+    {
+      "name": "Checkout Integration Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Enhanced Checkout Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Enhanced checkout uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/services/enhanced-checkout.service.ts"
+    },
+    {
+      "name": "Tax calculation in checkout",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useEnhancedOdooCheckout.ts"
+    },
+    {
+      "name": "Tax display in summary",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Discount system in checkout",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useEnhancedOdooCheckout.ts"
+    },
+    {
+      "name": "Coupon system in orders",
+      "status": "FAIL",
+      "details": "Content not found in src/services/odoo/graphql-orders.service.ts"
+    },
+    {
+      "name": "Currency Provider",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency API Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency API uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/currency-system/services/currency-api.service.ts"
+    },
+    {
+      "name": "Checkout has real-time updates",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useEnhancedOdooCheckout.ts"
+    },
+    {
+      "name": "Payment status updates",
+      "status": "FAIL",
+      "details": "Content not found in src/components/checkout/PaymentStatus.tsx"
+    },
+    {
+      "name": "Payment service has error handling",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Shipping service has error handling",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Checkout hook handles errors",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

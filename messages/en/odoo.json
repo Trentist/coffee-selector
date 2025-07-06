@@ -1,0 +1,11 @@
+{
+"connection_success": "Connection Successful",
+"connection_failed": "Connection Failed",
+"test_connection": "Test Connection",
+"status_connected": "Status: Connected",
+"status_failed": "Status: Connection Failed",
+"status_not_tested": "Status: Not Tested",
+"testing": "Testing Odoo GraphQL connection...",
+"test_results": "Test Results:",
+"connection_error": "Connection Error"
+}

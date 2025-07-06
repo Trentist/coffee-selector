@@ -1,0 +1,61 @@
+{
+	"hero": {
+		"title": "Discover the World of Premium Coffee",
+		"subtitle": "We offer you the best types of coffee from around the world",
+		"cta_button": "Shop Now",
+		"learn_more": "Learn More"
+	},
+	"home_page": {
+		"related_product_home_title": "Our Featured Products",
+		"related_product_home_text": "Discover a diverse collection of premium coffee from around the world"
+	},
+	"featured_section": {
+		"title": "Featured Products",
+		"subtitle": "Discover our carefully curated collection",
+		"view_all": "View All"
+	},
+	"categories_section": {
+		"title": "Coffee Categories",
+		"subtitle": "Choose from a variety of coffee types",
+		"arabic_coffee": "Arabic Coffee",
+		"espresso": "Espresso",
+		"filter_coffee": "Filter Coffee",
+		"instant_coffee": "Instant Coffee"
+	},
+	"about_section": {
+		"title": "Our Story",
+		"subtitle": "Learn about our coffee journey",
+		"description": "We believe that every cup of coffee has a story, and every coffee bean carries the essence of the place where it grew.",
+		"read_more": "Read More"
+	},
+	"testimonials": {
+		"title": "Customer Reviews",
+		"subtitle": "What our customers say about us",
+		"view_all_reviews": "View All Reviews"
+	},
+	"newsletter": {
+		"title": "Stay Updated",
+		"subtitle": "Subscribe to our newsletter for the latest offers and news",
+		"placeholder": "Enter your email",
+		"subscribe": "Subscribe",
+		"success_message": "Successfully subscribed!",
+		"error_message": "Subscription error occurred"
+	},
+	"stats": {
+		"customers": "Happy Customers",
+		"products": "Diverse Products",
+		"years": "Years Experience",
+		"countries": "Source Countries"
+	},
+	"quick_links": {
+		"shop_now": "Shop Now",
+		"learn_more": "Learn More",
+		"contact_us": "Contact Us",
+		"about_us": "About Us"
+	},
+	"seo": {
+		"meta_title": "Coffee Selection - Best Arabic and International Coffee Types",
+		"meta_description": "Discover a diverse collection of premium coffee from around the world. Arabic coffee, espresso, filter coffee and more.",
+		"keywords": "coffee, arabic coffee, espresso, filter coffee, premium coffee, high quality coffee"
+	}
+}

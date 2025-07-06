@@ -1,0 +1,38 @@
+{
+	"hero": {
+		"browseProducts": "تصفح المنتجات"
+	},
+	"featuredProducts": {
+		"title": "منتجاتنا المميزة",
+		"subtitle": "اكتشف مجموعة متنوعة من أفضل المنتجات المختارة خصيصاً لك",
+		"loading": "جاري تحميل المنتجات المميزة...",
+		"error": "خطأ في تحميل المنتجات المميزة",
+		"retry": "إعادة المحاولة",
+		"noProducts": "لا توجد منتجات مميزة متاحة حالياً",
+		"refresh": "تحديث",
+		"viewAll": "عرض جميع المنتجات"
+	},
+	"productCard": {
+		"new": "جديد",
+		"discount": "{discount}% خصم",
+		"outOfStock": "نفذ المخزون",
+		"addToCart": "أضف للسلة",
+		"addToFavorites": "إضافة للمفضلة",
+		"skuUndefined": "غير محدد",
+		"available": "متوفر",
+		"unavailable": "غير متوفر"
+	},
+	"stats": {
+		"satisfiedCustomers": "عميل راضي",
+		"diverseProducts": "منتج متنوع",
+		"servedCountries": "دولة نخدمها",
+		"yearsExperience": "سنوات خبرة"
+	},
+	"errors": {
+		"loadingPage": "جاري تحميل الصفحة الرئيسية...",
+		"pageLoadError": "حدث خطأ في تحميل الصفحة",
+		"noData": "لا توجد بيانات متاحة",
+		"fetchError": "فشل في جلب المنتجات المميزة",
+		"unexpectedError": "خطأ غير متوقع"
+	}
+}

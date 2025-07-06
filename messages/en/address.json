@@ -1,0 +1,14 @@
+{
+"saved_successfully": "Address saved successfully",
+"updated_successfully": "Address updated successfully",
+"deleted_successfully": "Address deleted successfully",
+"max_addresses_reached": "Maximum addresses reached",
+"max_addresses_registered_desc": "You can save up to {{max}} addresses",
+"max_addresses_guest_desc": "You can save up to {{max}} addresses as guest",
+"guest_notice_title": "Guest Notice",
+"guest_notice_description": "Your addresses will be saved locally in the browser",
+"registered_notice_title": "Registered User Notice",
+"registered_notice_description": "You can save up to {{max}} addresses",
+"name": "Name: {{name}}",
+"location": "Location: {{location}}"
+}

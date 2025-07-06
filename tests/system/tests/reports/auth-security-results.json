@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-06-29T23:53:20.099Z",
+  "testType": "Authentication and Security",
+  "realUser": "mohamed@coffeeselection.com",
+  "summary": {
+    "passed": 43,
+    "failed": 0,
+    "total": 43,
+    "successRate": "100.0"
+  },
+  "details": [
+    {
+      "name": "Auth System Entry Point",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Session Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Security Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cache Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Unified Auth Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL Auth Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Real login mutation exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL execution exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Login Form",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Register Form",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Forgot Password Form",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Reset Password Form",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Protected Route Guard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Guest Route Guard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Session validation exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Token refresh exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Service session validation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Change password function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Change password mutation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Reset password with token",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "User preferences type",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "User profile type",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Profile update function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Email verification function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Email verification mutation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL Client",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "GraphQL headers configuration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Odoo GraphQL Integration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Error handling in auth hook",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Error handling in auth service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Error handling in GraphQL service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Validation Rules",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Email validation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth Constants",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Storage keys defined",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth Middleware Directory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "NextAuth Secret Configuration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Security Headers Configuration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Auth manager uses GraphQL",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Service uses real login",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Token refresh service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Token storage",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

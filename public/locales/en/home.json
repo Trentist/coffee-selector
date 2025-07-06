@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "browseProducts": "Browse Products"
+  },
+  "featuredProducts": {
+    "title": "Our Featured Products",
+    "subtitle": "Discover a diverse collection of the best products specially selected for you",
+    "loading": "Loading featured products...",
+    "error": "Error loading featured products",
+    "retry": "Retry",
+    "noProducts": "No featured products available at the moment",
+    "refresh": "Refresh",
+    "viewAll": "View All Products"
+  },
+  "productCard": {
+    "new": "New",
+    "discount": "{discount}% Off",
+    "outOfStock": "Out of Stock",
+    "addToCart": "Add to Cart",
+    "addToFavorites": "Add to Favorites",
+    "skuUndefined": "Undefined",
+    "available": "Available",
+    "unavailable": "Unavailable"
+  },
+  "stats": {
+    "satisfiedCustomers": "Satisfied Customers",
+    "diverseProducts": "Diverse Products",
+    "servedCountries": "Countries We Serve",
+    "yearsExperience": "Years Experience"
+  },
+  "errors": {
+    "loadingPage": "Loading home page...",
+    "pageLoadError": "An error occurred while loading the page",
+    "noData": "No data available",
+    "fetchError": "Failed to fetch featured products",
+    "unexpectedError": "Unexpected error"
+  }
+}

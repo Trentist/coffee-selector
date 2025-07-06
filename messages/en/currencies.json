@@ -1,0 +1,89 @@
+{
+	"currencies": {
+		"AED": {
+			"name": "UAE Dirham",
+			"symbol": "AED",
+			"code": "AED",
+			"country": "United Arab Emirates"
+		},
+		"SAR": {
+			"name": "Saudi Riyal",
+			"symbol": "SAR",
+			"code": "SAR",
+			"country": "Saudi Arabia"
+		},
+		"KWD": {
+			"name": "Kuwaiti Dinar",
+			"symbol": "KWD",
+			"code": "KWD",
+			"country": "Kuwait"
+		},
+		"QAR": {
+			"name": "Qatari Riyal",
+			"symbol": "QAR",
+			"code": "QAR",
+			"country": "Qatar"
+		},
+		"BHD": {
+			"name": "Bahraini Dinar",
+			"symbol": "BHD",
+			"code": "BHD",
+			"country": "Bahrain"
+		},
+		"OMR": {
+			"name": "Omani Rial",
+			"symbol": "OMR",
+			"code": "OMR",
+			"country": "Oman"
+		},
+		"JOD": {
+			"name": "Jordanian Dinar",
+			"symbol": "JOD",
+			"code": "JOD",
+			"country": "Jordan"
+		},
+		"EGP": {
+			"name": "Egyptian Pound",
+			"symbol": "EGP",
+			"code": "EGP",
+			"country": "Egypt"
+		}
+	},
+	"currency_selector": {
+		"title": "Select Currency",
+		"current_currency": "Current Currency",
+		"change_currency": "Change Currency",
+		"select_currency": "Select Preferred Currency"
+	},
+	"price_format": {
+		"with_currency": "{{amount}} {{currency}}",
+		"with_symbol": "{{symbol}} {{amount}}",
+		"range": "{{min}} - {{max}} {{currency}}",
+		"from": "From {{amount}} {{currency}}",
+		"to": "To {{amount}} {{currency}}"
+	},
+	"countries": {
+		"AE": "United Arab Emirates",
+		"SA": "Saudi Arabia",
+		"KW": "Kuwait",
+		"QA": "Qatar",
+		"BH": "Bahrain",
+		"OM": "Oman",
+		"EG": "Egypt",
+		"MA": "Morocco",
+		"DZ": "Algeria",
+		"TN": "Tunisia",
+		"LY": "Libya",
+		"LB": "Lebanon",
+		"JO": "Jordan",
+		"PS": "Palestine",
+		"SY": "Syria",
+		"IQ": "Iraq",
+		"YE": "Yemen",
+		"SD": "Sudan",
+		"SO": "Somalia",
+		"US": "United States",
+		"GB": "United Kingdom",
+		"FR": "France"
+	}
+}

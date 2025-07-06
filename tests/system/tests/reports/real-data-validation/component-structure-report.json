@@ -1,0 +1,388 @@
+{
+  "timestamp": "2025-06-29T21:17:09.573Z",
+  "tests": {
+    "components": {
+      "success": true,
+      "total": 325,
+      "valid": 199,
+      "chakra": 165,
+      "translated": 154,
+      "typescript": 199,
+      "components": [
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/CurrencyCacheDashboard.tsx",
+          "name": "CurrencyCacheDashboard.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 502
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/CurrencyExchangeWidget.tsx",
+          "name": "CurrencyExchangeWidget.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 503
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/CurrencySchedulerDashboard.tsx",
+          "name": "CurrencySchedulerDashboard.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 518
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/CurrencySettingsDashboard.tsx",
+          "name": "CurrencySettingsDashboard.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 514
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/CurrencySystemAnalytics.tsx",
+          "name": "CurrencySystemAnalytics.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 498
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/ProductPriceConverter.tsx",
+          "name": "ProductPriceConverter.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": false,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 14,
+            "size": 499
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/SupportedCurrenciesDisplay.tsx",
+          "name": "SupportedCurrenciesDisplay.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 249,
+            "size": 6601
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/UsagePatternAnalytics.tsx",
+          "name": "UsagePatternAnalytics.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 589,
+            "size": 15773
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager/CategoryCard.tsx",
+          "name": "CategoryCard.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 632,
+            "size": 15461
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager/CategoryFilters.tsx",
+          "name": "CategoryFilters.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 684,
+            "size": 18861
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager/CategoryTree.tsx",
+          "name": "CategoryTree.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 638,
+            "size": 15492
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager/index.tsx",
+          "name": "index.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/CategoryManager",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 630,
+            "size": 16421
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/FilterSystem/AdvancedFilters.tsx",
+          "name": "AdvancedFilters.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/FilterSystem",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 1440,
+            "size": 39916
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/FilterSystem/index.tsx",
+          "name": "index.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/categories/FilterSystem",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 1035,
+            "size": 26923
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/checkout/EnhancedCheckoutPage.tsx",
+          "name": "EnhancedCheckoutPage.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/checkout",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 291,
+            "size": 7637
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common/I18nProvider.tsx",
+          "name": "I18nProvider.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": false,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 43,
+            "size": 1215
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common/LanguageSwitcher.tsx",
+          "name": "LanguageSwitcher.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 98,
+            "size": 2626
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common/TranslatedButton.tsx",
+          "name": "TranslatedButton.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 30,
+            "size": 719
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common/TranslatedText.tsx",
+          "name": "TranslatedText.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": true,
+            "hasExport": true,
+            "lineCount": 30,
+            "size": 697
+          }
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common/TranslationExample.tsx",
+          "name": "TranslationExample.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/components/common",
+          "analysis": {
+            "hasReact": true,
+            "hasChakraUI": true,
+            "hasTranslation": true,
+            "hasTypeScript": true,
+            "hasProps": false,
+            "hasExport": true,
+            "lineCount": 136,
+            "size": 4132
+          }
+        }
+      ]
+    },
+    "pages": {
+      "success": true,
+      "total": 32,
+      "pages": [
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/_app.tsx",
+          "name": "_app.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/_document.tsx",
+          "name": "_document.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/about-enhanced.tsx",
+          "name": "about-enhanced.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth/forgot-password.tsx",
+          "name": "forgot-password.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth/index.tsx",
+          "name": "index.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth/register.tsx",
+          "name": "register.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth/reset-password.tsx",
+          "name": "reset-password.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/auth",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/contact-enhanced.tsx",
+          "name": "contact-enhanced.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/currency-exchange.tsx",
+          "name": "currency-exchange.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages",
+          "type": "pages"
+        },
+        {
+          "path": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/dashboard/index.tsx",
+          "name": "index.tsx",
+          "directory": "/Users/mohamed/Downloads/new-coffee-selection-06298259d3304d10a37420b811a9c5654f63bbb6/src/pages/dashboard",
+          "type": "pages"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "componentsFound": true,
+    "pagesFound": true,
+    "totalComponents": 199,
+    "totalPages": 32,
+    "overallStatus": "GOOD"
+  }
+}

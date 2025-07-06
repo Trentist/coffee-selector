@@ -1,0 +1,11 @@
+{
+"connection_success": "الاتصال ناجح",
+"connection_failed": "فشل الاتصال",
+"test_connection": "اختبار الاتصال",
+"status_connected": "الحالة: متصل",
+"status_failed": "الحالة: فشل الاتصال",
+"status_not_tested": "الحالة: لم يتم الاختبار",
+"testing": "جاري اختبار الاتصال بـ Odoo GraphQL...",
+"test_results": "نتائج الاختبار:",
+"connection_error": "خطأ الاتصال"
+}

@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-29T23:48:05.461Z",
+  "testDuration": 343,
+  "tests": {
+    "products": {
+      "success": true,
+      "count": 12,
+      "totalCount": 12,
+      "validProducts": 11,
+      "invalidProducts": 1,
+      "priceRange": {
+        "min": 0,
+        "max": 24000
+      },
+      "sampleProducts": [
+        {
+          "id": 10,
+          "name": "Delter Coffee Press",
+          "price": 170,
+          "description": null,
+          "image": "/web/image/product.template/10/image_1920",
+          "imageFilename": "685b2dbc_delter-coffee-press",
+          "status": null,
+          "visibility": 1,
+          "typeId": "simple",
+          "categories": [
+            {
+              "id": 2,
+              "name": "Machines & Tools"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "Shipping Fees - Outside Abu Dhabi",
+          "price": 28.574,
+          "description": null,
+          "image": "/web/image/product.template/102/image_1920",
+          "imageFilename": "685b2dbc_shipping-fees-outside-abu-dhabi",
+          "status": null,
+          "visibility": 1,
+          "typeId": "configurable",
+          "categories": null
+        },
+        {
+          "id": 113,
+          "name": "Brood Nitro Double Black",
+          "price": 24000,
+          "description": null,
+          "image": "/web/image/product.template/113/image_1920",
+          "imageFilename": "685b2dbc_brood-nitro-double-black",
+          "status": null,
+          "visibility": 1,
+          "typeId": "simple",
+          "categories": [
+            {
+              "id": 2,
+              "name": "Machines & Tools"
+            }
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "success": true,
+      "count": 2,
+      "totalCount": 2,
+      "sampleCategories": [
+        {
+          "id": 1,
+          "name": "Coffee Beans",
+          "image": "/web/image/product.public.category/1/image_1920",
+          "imageFilename": "6767ef6b_coffee-beans",
+          "parent": null
+        },
+        {
+          "id": 2,
+          "name": "Machines & Tools",
+          "image": "/web/image/product.public.category/2/image_1920",
+          "imageFilename": "6767f20a_machines-tools",
+          "parent": null
+        }
+      ]
+    },
+    "cart": {
+      "success": true,
+      "cartId": null,
+      "itemsCount": 0,
+      "total": 0,
+      "note": "No cart data - normal for guest users"
+    }
+  },
+  "summary": {
+    "totalTests": 3,
+    "passedTests": 3,
+    "failedTests": 0,
+    "successRate": 100
+  },
+  "dataQuality": {
+    "productsAvailable": 12,
+    "categoriesAvailable": 2,
+    "dataIntegrity": "GOOD"
+  }
+}

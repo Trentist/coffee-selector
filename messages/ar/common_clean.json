@@ -1,0 +1,202 @@
+{
+	"navigation": {
+		"home": "الرئيسية",
+		"about": "قصتنا",
+		"contact": "اتصل بنا",
+		"shop": "المتجر",
+		"collections": "المجموعات",
+		"cart": "السلة",
+		"jobs": "الوظائف",
+		"wholesale": "أسعار الجملة",
+		"login": "تسجيل الدخول",
+		"search": "بحث القهوة",
+		"menu": "القائمة",
+		"toggle_sidebar": "تبديل القائمة الجانبية"
+	},
+	"footer": {
+		"refund": "سياسة الإرجاع",
+		"privacy": "سياسة الخصوصية",
+		"terms": "الشروط والأحكام",
+		"title": "ادخل عالم القهوة واحمي رقبتك. نحن لا نقدم الجن والعصير ولكن لدينا C.R.E.A.M ومن السهل معرفة أن هناك حالة ذهنية من نيويورك.",
+		"newsletter": "النشرة البريدية",
+		"stay_connected": "ابقى على تواصل",
+		"job": "وظيفة",
+		"join": "تريد الانضمام إلينا؟",
+		"take_time": "خذ وقتك",
+		"enjoy": "استمتع",
+		"coffee": "قهوة",
+		"pastries": "المعجنات",
+		"fresh_juice": "عصائر طازجة",
+		"specialty": "قهوة خاصة",
+		"open": "مفتوح",
+		"go": "اذهب",
+		"powered_by": "مصنوع بحب من Beyin",
+		"copy": "© {{year}} كوفي سيليكشن للتجارة",
+		"copyright": "© 2023 اسم الشركة. جميع الحقوق محفوظة.",
+		"terms_privacy": "الشروط والأحكام | سياسة الخصوصية",
+		"address": "العنوان: مدينة، شارع، مبنى"
+	},
+	"home_page": {
+		"decoration_alt": "صورة زخرفية {{number}}",
+		"background_alt": "صورة خلفية القهوة",
+		"related_product_home_title": "مجموعة القهوة المميزة",
+		"related_product_home_text": "اكتشف حبوب القهوة المختارة بعناية من جميع أنحاء العالم",
+		"scroll_logo_alt": "شعار العلامة التجارية للقهوة"
+	},
+	"about": {
+		"store_name": "الشهداء",
+		"store_address": "شارع الشهداء، 75009 باريس - قريباً من الاثنين إلى الجمعة",
+		"weekdays": "من الاثنين إلى الجمعة",
+		"weekdays_hours": "من 8 صباحاً إلى 6:30 مساءً",
+		"weekend": "السبت والأحد",
+		"weekend_hours": "من 9 صباحاً إلى 6:30 مساءً"
+	},
+	"notifications": {
+		"success": {
+			"title": "نجح",
+			"default": "تم إكمال العملية بنجاح",
+			"cart": {
+				"added": "تم إضافة المنتج إلى السلة",
+				"removed": "تم إزالة المنتج من السلة",
+				"updated": "تم تحديث السلة"
+			},
+			"order": {
+				"placed": "تم تأكيد الطلب بنجاح",
+				"updated": "تم تحديث الطلب",
+				"cancelled": "تم إلغاء الطلب"
+			},
+			"auth": {
+				"login": "تم تسجيل الدخول بنجاح",
+				"register": "تم إنشاء الحساب بنجاح",
+				"logout": "تم تسجيل الخروج بنجاح"
+			},
+			"profile": {
+				"updated": "تم تحديث الملف الشخصي",
+				"password_changed": "تم تغيير كلمة المرور بنجاح"
+			}
+		},
+		"error": {
+			"title": "خطأ",
+			"default": "حدث خطأ ما",
+			"network": "خطأ في الاتصال بالشبكة",
+			"validation": "يرجى التحقق من المدخلات",
+			"auth": {
+				"invalid_credentials": "بيانات تسجيل الدخول غير صحيحة",
+				"expired_session": "انتهت صلاحية الجلسة"
+			}
+		},
+		"warning": {
+			"title": "تحذير",
+			"default": "يرجى الانتباه",
+			"session": {
+				"expiring": "ستنتهي صلاحية جلستك قريباً",
+				"inactive": "هل ما زلت هنا؟"
+			},
+			"cart": {
+				"expired": "ستنتهي صلاحية السلة قريباً",
+				"items_removed": "تم إزالة بعض العناصر من سلتك"
+			}
+		},
+		"info": {
+			"title": "معلومات",
+			"default": "معلومات مهمة",
+			"cart": {
+				"empty": "سلتك فارغة",
+				"processing": "جاري معالجة طلبك"
+			},
+			"order": {
+				"processing": "جاري معالجة طلبك",
+				"shipped": "تم شحن طلبك"
+			}
+		}
+	},
+	"validation": {
+		"invalid_email": "عنوان البريد الإلكتروني غير صحيح",
+		"email_required": "البريد الإلكتروني مطلوب",
+		"password_min": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+		"password_required": "كلمة المرور مطلوبة",
+		"name_required": "الاسم مطلوب",
+		"phone_required": "رقم الهاتف مطلوب",
+		"form_has_errors": "يرجى إصلاح الأخطاء قبل الإرسال",
+		"missing_fields": "يرجى ملء جميع الحقول المطلوبة",
+		"first_name_short": "الاسم الأول يجب أن يكون حرفين على الأقل",
+		"last_name_short": "اسم العائلة يجب أن يكون حرفين على الأقل",
+		"street_short": "عنوان الشارع يجب أن يكون 3 أحرف على الأقل",
+		"building_required": "المبنى مطلوب",
+		"country_required": "الدولة مطلوبة",
+		"state_required": "المنطقة/المحافظة مطلوبة",
+		"city_required": "المدينة مطلوبة",
+		"zip_required": "الرمز البريدي مطلوب",
+		"address_required": "يرجى اختيار أو إضافة عنوان شحن",
+		"select_or_add_address": "يرجى اختيار عنوان موجود أو إضافة عنوان جديد للمتابعة",
+		"shipping_method_required": "يرجى اختيار طريقة شحن",
+		"please_fix_errors": "يرجى إصلاح الأخطاء قبل المتابعة"
+	},
+	"phone_validation": {
+		"country_not_supported": "الدولة غير مدعومة",
+		"invalid_length": "يجب أن يكون بين {{min}} و {{max}} رقم",
+		"invalid_start": "يجب أن يبدأ بـ {{starts}}",
+		"invalid_format": "تنسيق رقم الهاتف غير صحيح"
+	},
+	"auth": {
+		"welcome_back": "مرحباً بعودتك إلى كوفي سيليكشن!",
+		"welcome_text": "لقد أعددنا لك مزيجاً حصرياً من القهوة المختارة خصيصاً لعودتك. سعيد بالتحضير! ☕",
+		"join_title": "انضم إلى رحلتنا مع القهوة",
+		"join_text": "كن عضواً في كوفي سيليكشن واستمتع بالمزايا التالية:",
+		"benefits": [
+			"وصول أولوية للوافدين الجدد",
+			"خصومات خاصة للأعضاء",
+			"توصيات قهوة مخصصة",
+			"شحن مجاني للطلبات فوق 50$"
+		],
+		"login_success": "تم تسجيل الدخول بنجاح! مرحباً بعودتك",
+		"login_error": "فشل تسجيل الدخول. يرجى التحقق من بياناتك",
+		"logout_success": "تم تسجيل الخروج بنجاح",
+		"signup_success": "تم إنشاء الحساب بنجاح! مرحباً بك في كوفي سيليكشن",
+		"signup_error": "فشل التسجيل. يرجى المحاولة مرة أخرى",
+		"name": "الاسم",
+		"email": "البريد الإلكتروني",
+		"phone": "الهاتف",
+		"password": "كلمة المرور",
+		"login": "تسجيل الدخول",
+		"register": "تسجيل",
+		"already_have_account": "لديك حساب بالفعل؟",
+		"dont_have_account": "ليس لديك حساب؟",
+		"email_wrong": "عنوان البريد الإلكتروني غير صحيح",
+		"password_wrong": "كلمة المرور مطلوبة",
+		"name_required": "الاسم مطلوب",
+		"email_required": "البريد الإلكتروني مطلوب",
+		"phone_required": "الهاتف مطلوب",
+		"password_required": "كلمة المرور مطلوبة",
+		"confirm_password_required": "يرجى تأكيد كلمة المرور",
+		"passwords_not_match": "كلمات المرور غير متطابقة",
+		"weak_password": "كلمة مرور ضعيفة",
+		"weak_password_desc": "يرجى اختيار كلمة مرور أقوى.",
+		"registration_successful": "تم التسجيل بنجاح",
+		"registration_success_desc": "يرجى التحقق من بريدك الإلكتروني لتأكيد حسابك. جاري التوجيه لتسجيل الدخول...",
+		"registration_failed": "فشل التسجيل",
+		"registration_error": "حدث خطأ غير متوقع.",
+		"hide_password": "إخفاء كلمة المرور",
+		"show_password": "إظهار كلمة المرور",
+		"new_password": "كلمة مرور جديدة",
+		"confirm_new_password": "تأكيد كلمة المرور الجديدة",
+		"password_reset_success": "تم إعادة تعيين كلمة المرور بنجاح",
+		"password_reset_success_desc": "يمكنك الآن تسجيل الدخول بكلمة المرور الجديدة",
+		"password_reset_error": "فشل إعادة تعيين كلمة المرور. قد يكون الرابط منتهي الصلاحية",
+		"i_am_human": "أنا إنسان",
+		"verification_failed": "فشل التحقق",
+		"confirm_human": "يرجى تأكيد أنك إنسان.",
+		"password_reset_request_sent": "تم إرسال الطلب",
+		"password_reset_description": "إذا كان هناك حساب بهذا البريد الإلكتروني، فقد أرسلنا رابط إعادة تعيين كلمة المرور.",
+		"send_reset_link": "إرسال رابط إعادة التعيين",
+		"security": "الأمان",
+		"new_password_brew": "احضر كلمة مرور جديدة!",
+		"new_password_label": "كلمة مرور جديدة",
+		"confirm_password_label": "تأكيد كلمة المرور",
+		"update": "تحديث",
+		"new_password_placeholder": "يرجى إدخال كلمة مرور جديدة",
+		"confirm_password_placeholder": "تأكيد كلمة المرور الجديدة",
+		"password_enter_required": "يرجى إدخال كلمة مرور",
+		"passwords_do_not_match": "كلمات المرور غير متطابقة"
+	}
+}

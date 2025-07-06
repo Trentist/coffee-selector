@@ -1,0 +1,61 @@
+{
+  "name": "coffee-selection-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive testing suite for Coffee Selection application",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test:e2e": "jest tests/e2e",
+    "test:real-data": "jest tests/integration/odoo tests/e2e/real-data",
+    "test:performance": "jest tests/e2e/performance",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "test:debug": "jest --detectOpenHandles --forceExit",
+    "generate-report": "node scripts/generate-test-report.js",
+    "validate-data": "jest tests/integration/odoo/real-data-test.ts",
+    "test-auth": "jest tests/integration/auth",
+    "test-components": "jest tests/unit/components",
+    "clean-reports": "rm -rf tests/reports/coverage/* tests/reports/performance/* tests/reports/real-data-validation/*"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setup.ts"
+    ],
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.{ts,tsx}",
+      "<rootDir>/tests/**/*-test.{ts,tsx}"
+    ],
+    "moduleNameMapping": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/**/*.d.ts",
+      "!src/**/*.stories.{ts,tsx}",
+      "!src/pages/_app.tsx",
+      "!src/pages/_document.tsx"
+    ],
+    "coverageDirectory": "tests/reports/coverage",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html",
+      "json"
+    ],
+    "testTimeout": 30000,
+    "verbose": true,
+    "detectOpenHandles": true,
+    "forceExit": true
+  },
+  "dependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@types/jest": "^29.5.5"
+  }
+}

@@ -1,0 +1,390 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+--------------------------- #
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,149 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 4 0.001 0.008
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------- GRAPHQL: DEBUG MODE -------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                          HEADERS                        #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+{'CONTENT_LENGTH': '217',
+ 'CONTENT_TYPE': 'application/json',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'br, gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': '*',
+ 'HTTP_AUTHORIZATION': 'Bearer d22fb86e790ba068c5b3bcfb801109892f3a0b38',
+ 'HTTP_CONNECTION': 'close',
+ 'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_SEC_FETCH_MODE': 'cors',
+ 'HTTP_USER_AGENT': 'node',
+ 'HTTP_X_FORWARDED_FOR': '92.96.71.67',
+ 'HTTP_X_FORWARDED_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_X_FORWARDED_PROTO': 'https',
+ 'HTTP_X_REAL_IP': '92.96.71.67',
+ 'PATH_INFO': '/graphql/vsf',
+ 'QUERY_STRING': '',
+ 'RAW_URI': '/graphql/vsf',
+ 'REMOTE_ADDR': '92.96.71.67',
+ 'REMOTE_PORT': 33750,
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/graphql/vsf',
+ 'SCRIPT_NAME': '',
+ 'SERVER_NAME': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'SERVER_PORT': '8069',
+ 'SERVER_PROTOCOL': 'HTTP/1.0',
+ 'SERVER_SOFTWARE': 'Werkzeug/2.0.2',
+ 'werkzeug.proxy_fix.orig': {'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+                             'REMOTE_ADDR': '10.0.43.118',
+                             'SCRIPT_NAME': '',
+                             'SERVER_NAME': '0.0.0.0',
+                             'SERVER_PORT': '8069',
+                             'wsgi.url_scheme': 'http'},
+ 'wsgi.url_scheme': 'https'}
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                     QUERY / MUTATION                    #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+
+				query GetProducts {
+					products {
+						products {
+							id
+							name
+							price
+						}
+						totalCount
+					}
+				}
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                         ARGUMENTS                       #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,199 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 12 0.005 0.015
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------- GRAPHQL: DEBUG MODE -------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                          HEADERS                        #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+{'CONTENT_LENGTH': '217',
+ 'CONTENT_TYPE': 'application/json',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'br, gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': '*',
+ 'HTTP_AUTHORIZATION': 'Bearer d22fb86e790ba068c5b3bcfb801109892f3a0b38',
+ 'HTTP_CONNECTION': 'close',
+ 'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_SEC_FETCH_MODE': 'cors',
+ 'HTTP_USER_AGENT': 'node',
+ 'HTTP_X_FORWARDED_FOR': '92.96.71.67',
+ 'HTTP_X_FORWARDED_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_X_FORWARDED_PROTO': 'https',
+ 'HTTP_X_REAL_IP': '92.96.71.67',
+ 'PATH_INFO': '/graphql/vsf',
+ 'QUERY_STRING': '',
+ 'RAW_URI': '/graphql/vsf',
+ 'REMOTE_ADDR': '92.96.71.67',
+ 'REMOTE_PORT': 33766,
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/graphql/vsf',
+ 'SCRIPT_NAME': '',
+ 'SERVER_NAME': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'SERVER_PORT': '8069',
+ 'SERVER_PROTOCOL': 'HTTP/1.0',
+ 'SERVER_SOFTWARE': 'Werkzeug/2.0.2',
+ 'werkzeug.proxy_fix.orig': {'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+                             'REMOTE_ADDR': '10.0.43.118',
+                             'SCRIPT_NAME': '',
+                             'SERVER_NAME': '0.0.0.0',
+                             'SERVER_PORT': '8069',
+                             'wsgi.url_scheme': 'http'},
+ 'wsgi.url_scheme': 'https'}
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                     QUERY / MUTATION                    #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+
+				query GetProducts {
+					products {
+						products {
+							id
+							name
+							price
+						}
+						totalCount
+					}
+				}
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                         ARGUMENTS                       #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,249 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 12 0.005 0.014
+2025-07-01 12:02:02,944 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`.
+2025-07-01 12:02:02,949 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s).
+2025-07-01 12:02:02,956 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `Update Dirty Products Stock on Redis`.
+2025-07-01 12:02:02,960 4 ERROR coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Call from cron Update Dirty Products Stock on Redis for server action #1557 failed in Job #86
+Traceback (most recent call last):
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_cron.py", line 393, in _callback
+    self.env['ir.actions.server'].browse(server_action_id).run()
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 943, in run
+    res = runner(run_self, eval_context=eval_context)
+  File "/home/odoo/src/odoo/addons/website/models/ir_actions_server.py", line 61, in _run_action_code_multi
+    res = super(ServerAction, self)._run_action_code_multi(eval_context)
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 775, in _run_action_code_multi
+    safe_eval(self.code.strip(), eval_context, mode="exec", nocopy=True, filename=str(self))  # nocopy allows to return 'action'
+  File "/home/odoo/src/odoo/odoo/tools/safe_eval.py", line 399, in safe_eval
+    return unsafe_eval(c, globals_dict, locals_dict)
+  File "ir.actions.server(1557,)", line 1, in <module>
+  File "/home/odoo/src/user/graphql_vuestorefront/models/product.py", line 441, in _update_dirty_products_stock_redis
+    redis_client = self.env['website']._redis_connect()
+  File "/home/odoo/src/user/graphql_vuestorefront/models/website.py", line 119, in _redis_connect
+    raise UserError(_('Please configure Redis.'))
+odoo.exceptions.UserError: Please configure Redis.
+2025-07-01 12:02:03,918 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `Update Dirty Products Stock on Redis`.
+2025-07-01 12:02:03,920 4 ERROR coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Call from cron Update Dirty Products Stock on Redis for server action #1557 failed in Job #86
+Traceback (most recent call last):
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_cron.py", line 393, in _callback
+    self.env['ir.actions.server'].browse(server_action_id).run()
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 943, in run
+    res = runner(run_self, eval_context=eval_context)
+  File "/home/odoo/src/odoo/addons/website/models/ir_actions_server.py", line 61, in _run_action_code_multi
+    res = super(ServerAction, self)._run_action_code_multi(eval_context)
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 775, in _run_action_code_multi
+    safe_eval(self.code.strip(), eval_context, mode="exec", nocopy=True, filename=str(self))  # nocopy allows to return 'action'
+  File "/home/odoo/src/odoo/odoo/tools/safe_eval.py", line 399, in safe_eval
+    return unsafe_eval(c, globals_dict, locals_dict)
+  File "ir.actions.server(1557,)", line 1, in <module>
+  File "/home/odoo/src/user/graphql_vuestorefront/models/product.py", line 441, in _update_dirty_products_stock_redis
+    redis_client = self.env['website']._redis_connect()
+  File "/home/odoo/src/user/graphql_vuestorefront/models/website.py", line 119, in _redis_connect
+    raise UserError(_('Please configure Redis.'))
+odoo.exceptions.UserError: Please configure Redis.
+Filter:
+ERROR
+
+--------------------------- #
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,147 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,149 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 4 0.001 0.008
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------- GRAPHQL: DEBUG MODE -------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                          HEADERS                        #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+{'CONTENT_LENGTH': '217',
+ 'CONTENT_TYPE': 'application/json',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'br, gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': '*',
+ 'HTTP_AUTHORIZATION': 'Bearer d22fb86e790ba068c5b3bcfb801109892f3a0b38',
+ 'HTTP_CONNECTION': 'close',
+ 'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_SEC_FETCH_MODE': 'cors',
+ 'HTTP_USER_AGENT': 'node',
+ 'HTTP_X_FORWARDED_FOR': '92.96.71.67',
+ 'HTTP_X_FORWARDED_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_X_FORWARDED_PROTO': 'https',
+ 'HTTP_X_REAL_IP': '92.96.71.67',
+ 'PATH_INFO': '/graphql/vsf',
+ 'QUERY_STRING': '',
+ 'RAW_URI': '/graphql/vsf',
+ 'REMOTE_ADDR': '92.96.71.67',
+ 'REMOTE_PORT': 33750,
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/graphql/vsf',
+ 'SCRIPT_NAME': '',
+ 'SERVER_NAME': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'SERVER_PORT': '8069',
+ 'SERVER_PROTOCOL': 'HTTP/1.0',
+ 'SERVER_SOFTWARE': 'Werkzeug/2.0.2',
+ 'werkzeug.proxy_fix.orig': {'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+                             'REMOTE_ADDR': '10.0.43.118',
+                             'SCRIPT_NAME': '',
+                             'SERVER_NAME': '0.0.0.0',
+                             'SERVER_PORT': '8069',
+                             'wsgi.url_scheme': 'http'},
+ 'wsgi.url_scheme': 'https'}
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                     QUERY / MUTATION                    #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+
+				query GetProducts {
+					products {
+						products {
+							id
+							name
+							price
+						}
+						totalCount
+					}
+				}
+2025-07-01 12:01:34,185 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                         ARGUMENTS                       #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,186 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,199 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 12 0.005 0.015
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------- GRAPHQL: DEBUG MODE -------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                          HEADERS                        #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+{'CONTENT_LENGTH': '217',
+ 'CONTENT_TYPE': 'application/json',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'br, gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': '*',
+ 'HTTP_AUTHORIZATION': 'Bearer d22fb86e790ba068c5b3bcfb801109892f3a0b38',
+ 'HTTP_CONNECTION': 'close',
+ 'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_SEC_FETCH_MODE': 'cors',
+ 'HTTP_USER_AGENT': 'node',
+ 'HTTP_X_FORWARDED_FOR': '92.96.71.67',
+ 'HTTP_X_FORWARDED_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'HTTP_X_FORWARDED_PROTO': 'https',
+ 'HTTP_X_REAL_IP': '92.96.71.67',
+ 'PATH_INFO': '/graphql/vsf',
+ 'QUERY_STRING': '',
+ 'RAW_URI': '/graphql/vsf',
+ 'REMOTE_ADDR': '92.96.71.67',
+ 'REMOTE_PORT': 33766,
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/graphql/vsf',
+ 'SCRIPT_NAME': '',
+ 'SERVER_NAME': 'coffee-selection-staging-20784644.dev.odoo.com',
+ 'SERVER_PORT': '8069',
+ 'SERVER_PROTOCOL': 'HTTP/1.0',
+ 'SERVER_SOFTWARE': 'Werkzeug/2.0.2',
+ 'werkzeug.proxy_fix.orig': {'HTTP_HOST': 'coffee-selection-staging-20784644.dev.odoo.com',
+                             'REMOTE_ADDR': '10.0.43.118',
+                             'SCRIPT_NAME': '',
+                             'SERVER_NAME': '0.0.0.0',
+                             'SERVER_PORT': '8069',
+                             'wsgi.url_scheme': 'http'},
+ 'wsgi.url_scheme': 'https'}
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                     QUERY / MUTATION                    #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+
+				query GetProducts {
+					products {
+						products {
+							id
+							name
+							price
+						}
+						totalCount
+					}
+				}
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: #                         ARGUMENTS                       #
+2025-07-01 12:01:34,236 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------- #
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+None
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main:
+2025-07-01 12:01:34,237 4 INFO coffee-selection-staging-20784644 odoo.addons.graphql_vuestorefront.controllers.main: # ------------------------------------------------------------------------------------ #
+2025-07-01 12:01:34,249 4 INFO coffee-selection-staging-20784644 werkzeug: 92.96.71.67 - - [01/Jul/2025 12:01:34] "POST /graphql/vsf HTTP/1.0" 200 - 12 0.005 0.014
+2025-07-01 12:02:02,944 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`.
+2025-07-01 12:02:02,949 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s).
+2025-07-01 12:02:02,956 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `Update Dirty Products Stock on Redis`.
+2025-07-01 12:02:02,960 4 ERROR coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Call from cron Update Dirty Products Stock on Redis for server action #1557 failed in Job #86
+Traceback (most recent call last):
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_cron.py", line 393, in _callback
+    self.env['ir.actions.server'].browse(server_action_id).run()
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 943, in run
+    res = runner(run_self, eval_context=eval_context)
+  File "/home/odoo/src/odoo/addons/website/models/ir_actions_server.py", line 61, in _run_action_code_multi
+    res = super(ServerAction, self)._run_action_code_multi(eval_context)
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 775, in _run_action_code_multi
+    safe_eval(self.code.strip(), eval_context, mode="exec", nocopy=True, filename=str(self))  # nocopy allows to return 'action'
+  File "/home/odoo/src/odoo/odoo/tools/safe_eval.py", line 399, in safe_eval
+    return unsafe_eval(c, globals_dict, locals_dict)
+  File "ir.actions.server(1557,)", line 1, in <module>
+  File "/home/odoo/src/user/graphql_vuestorefront/models/product.py", line 441, in _update_dirty_products_stock_redis
+    redis_client = self.env['website']._redis_connect()
+  File "/home/odoo/src/user/graphql_vuestorefront/models/website.py", line 119, in _redis_connect
+    raise UserError(_('Please configure Redis.'))
+odoo.exceptions.UserError: Please configure Redis.
+2025-07-01 12:02:03,918 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `Update Dirty Products Stock on Redis`.
+2025-07-01 12:02:03,920 4 ERROR coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Call from cron Update Dirty Products Stock on Redis for server action #1557 failed in Job #86
+Traceback (most recent call last):
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_cron.py", line 393, in _callback
+    self.env['ir.actions.server'].browse(server_action_id).run()
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 943, in run
+    res = runner(run_self, eval_context=eval_context)
+  File "/home/odoo/src/odoo/addons/website/models/ir_actions_server.py", line 61, in _run_action_code_multi
+    res = super(ServerAction, self)._run_action_code_multi(eval_context)
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 775, in _run_action_code_multi
+    safe_eval(self.code.strip(), eval_context, mode="exec", nocopy=True, filename=str(self))  # nocopy allows to return 'action'
+  File "/home/odoo/src/odoo/odoo/tools/safe_eval.py", line 399, in safe_eval
+    return unsafe_eval(c, globals_dict, locals_dict)
+  File "ir.actions.server(1557,)", line 1, in <module>
+  File "/home/odoo/src/user/graphql_vuestorefront/models/product.py", line 441, in _update_dirty_products_stock_redis
+    redis_client = self.env['website']._redis_connect()
+  File "/home/odoo/src/user/graphql_vuestorefront/models/website.py", line 119, in _redis_connect
+    raise UserError(_('Please configure Redis.'))
+odoo.exceptions.UserError: Please configure Redis.
+2025-07-01 12:03:03,030 4 INFO coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Starting job `Update Dirty Products Stock on Redis`.
+2025-07-01 12:03:03,033 4 ERROR coffee-selection-staging-20784644 odoo.addons.base.models.ir_cron: Call from cron Update Dirty Products Stock on Redis for server action #1557 failed in Job #86
+Traceback (most recent call last):
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_cron.py", line 393, in _callback
+    self.env['ir.actions.server'].browse(server_action_id).run()
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 943, in run
+    res = runner(run_self, eval_context=eval_context)
+  File "/home/odoo/src/odoo/addons/website/models/ir_actions_server.py", line 61, in _run_action_code_multi
+    res = super(ServerAction, self)._run_action_code_multi(eval_context)
+  File "/home/odoo/src/odoo/odoo/addons/base/models/ir_actions.py", line 775, in _run_action_code_multi
+    safe_eval(self.code.strip(), eval_context, mode="exec", nocopy=True, filename=str(self))  # nocopy allows to return 'action'
+  File "/home/odoo/src/odoo/odoo/tools/safe_eval.py", line 399, in safe_eval
+    return unsafe_eval(c, globals_dict, locals_dict)
+  File "ir.actions.server(1557,)", line 1, in <module>
+  File "/home/odoo/src/user/graphql_vuestorefront/models/product.py", line 441, in _update_dirty_products_stock_redis
+    redis_client = self.env['website']._redis_connect()
+  File "/home/odoo/src/user/graphql_vuestorefront/models/website.py", line 119, in _redis_connect
+    raise UserError(_('Please configure Redis.'))
+odoo.exceptions.UserError: Please configure Redis.
+Filter:
+ERROR
+

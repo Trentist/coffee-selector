@@ -1,0 +1,184 @@
+{
+  "startTime": "2025-07-01T01:18:25.230Z",
+  "tests": {
+    "connection": {
+      "success": true,
+      "results": {
+        "environment": {
+          "success": true
+        },
+        "redis": {
+          "success": true,
+          "config": {
+            "host": "localhost",
+            "port": 6379,
+            "prefix": "coffee_selection"
+          }
+        },
+        "redisOps": {
+          "success": true,
+          "operations": [
+            "SET",
+            "GET",
+            "DELETE",
+            "VERIFY"
+          ],
+          "testData": {
+            "message": "Redis connection test",
+            "timestamp": 1751332705236,
+            "data": {
+              "test": true,
+              "value": 123
+            }
+          }
+        },
+        "graphql": {
+          "success": true,
+          "statusCode": 200,
+          "schema": {
+            "queryType": {
+              "name": "Query"
+            }
+          }
+        },
+        "sync": {
+          "success": true,
+          "cached": true,
+          "dataSource": "graphql",
+          "timestamp": 1751332705647
+        }
+      }
+    },
+    "dataAccess": {
+      "success": true,
+      "results": {
+        "publicData": {
+          "success": true,
+          "totalProducts": 12,
+          "receivedProducts": 3,
+          "sampleProduct": {
+            "id": 10,
+            "name": "Delter Coffee Press",
+            "price": 170,
+            "sku": "Delter",
+            "isInStock": false
+          }
+        },
+        "categories": {
+          "success": true,
+          "totalCategories": 2,
+          "receivedCategories": 2,
+          "sampleCategory": {
+            "id": 1,
+            "name": "Coffee Beans",
+            "slug": "false"
+          }
+        },
+        "cart": {
+          "success": true,
+          "cart": {
+            "order": {
+              "id": 4731,
+              "name": "SO4731",
+              "cartQuantity": null,
+              "amountTotal": 0,
+              "currency": {
+                "name": "AED",
+                "symbol": "AED"
+              }
+            }
+          },
+          "hasOrder": true,
+          "itemCount": null
+        },
+        "countries": {
+          "success": true,
+          "totalCountries": 250,
+          "receivedCountries": 5,
+          "sampleCountry": {
+            "id": 3,
+            "name": "Afghanistan",
+            "code": "AF"
+          }
+        }
+      }
+    },
+    "operations": {
+      "success": true,
+      "results": {
+        "basicProducts": {
+          "success": true,
+          "totalProducts": 12,
+          "receivedProducts": 3
+        },
+        "basicCategories": {
+          "success": true,
+          "totalCategories": 2,
+          "receivedCategories": 2
+        },
+        "cartStatus": {
+          "success": true,
+          "hasCart": true,
+          "itemCount": null,
+          "total": 0
+        },
+        "websiteMenu": {
+          "success": true,
+          "menuItems": 7,
+          "menu": [
+            {
+              "id": 4,
+              "name": "Top Menu for Website 1",
+              "url": "/default-main-menu",
+              "sequence": 0
+            },
+            {
+              "id": 5,
+              "name": "Home",
+              "url": "/",
+              "sequence": 0
+            },
+            {
+              "id": 23,
+              "name": "Shop",
+              "url": "/shop",
+              "sequence": 1
+            },
+            {
+              "id": 37,
+              "name": "Wholesale",
+              "url": "/b2b-account",
+              "sequence": 2
+            },
+            {
+              "id": 53,
+              "name": "Join Us",
+              "url": "/jobs",
+              "sequence": 3
+            },
+            {
+              "id": 6,
+              "name": "Contact us",
+              "url": "/contactus",
+              "sequence": 4
+            },
+            {
+              "id": 54,
+              "name": "Stripe",
+              "url": "",
+              "sequence": 70
+            }
+          ]
+        }
+      }
+    }
+  },
+  "summary": {
+    "totalTestSuites": 3,
+    "passedTestSuites": 3,
+    "failedTestSuites": 0,
+    "overallSuccess": true
+  },
+  "endTime": "2025-07-01T01:18:26.173Z",
+  "duration": 943
+}

@@ -1,0 +1,248 @@
+{
+  "timestamp": "2025-06-29T23:53:20.938Z",
+  "testType": "Dashboard System",
+  "realUser": "mohamed@coffeeselection.com",
+  "summary": {
+    "passed": 27,
+    "failed": 20,
+    "total": 47,
+    "successRate": "57.4"
+  },
+  "details": [
+    {
+      "name": "Main Dashboard Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoices Dashboard Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "New Dashboard Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard Page Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard Hook",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Shop Statistics Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard includes statistics",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Orders Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Advanced Orders Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "User orders functionality",
+      "status": "FAIL",
+      "details": "Content not found in src/services/odoo/graphql-orders.service.ts"
+    },
+    {
+      "name": "Invoice Display Component",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoice Queries",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Invoices use GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/graphql/queries/invoices.ts"
+    },
+    {
+      "name": "Dashboard includes profile section",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Profile update functionality",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Favorites Page",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Wishlist Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "User wishlist functionality",
+      "status": "FAIL",
+      "details": "Content not found in src/services/odoo/graphql-wishlist.service.ts"
+    },
+    {
+      "name": "Addresses Service",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Address Entry Component",
+      "status": "FAIL",
+      "details": "File src/components/shared/address-entry/index.tsx does not exist"
+    },
+    {
+      "name": "User addresses functionality",
+      "status": "FAIL",
+      "details": "Content not found in src/services/odoo/graphql-addresses.service.ts"
+    },
+    {
+      "name": "Settings Section Directory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Security Settings Hook",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Password change functionality",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Notification System",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard notifications",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Currency Settings Dashboard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency Analytics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency Cache Dashboard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Usage Pattern Analytics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Tracking Library",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Analytics tracking implemented",
+      "status": "FAIL",
+      "details": "Content not found in src/lib/tracking.ts"
+    },
+    {
+      "name": "Dashboard has real-time updates",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Dashboard polling for updates",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Dashboard is responsive",
+      "status": "FAIL",
+      "details": "Content not found in src/components/pages-details/dashboard-page/index.tsx"
+    },
+    {
+      "name": "Breakpoints Configuration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Statistics visualization",
+      "status": "FAIL",
+      "details": "Content not found in src/components/ui/shop-stats.tsx"
+    },
+    {
+      "name": "Currency analytics visualization",
+      "status": "FAIL",
+      "details": "Content not found in src/components/CurrencySystemAnalytics.tsx"
+    },
+    {
+      "name": "Invoice export functionality",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Order export functionality",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Dashboard filtering",
+      "status": "FAIL",
+      "details": "Content not found in src/pages/dashboard/invoices-bills.tsx"
+    },
+    {
+      "name": "Dashboard search functionality",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Dashboard performance optimization",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Lazy loading implementation",
+      "status": "FAIL",
+      "details": "Content not found in src/components/pages-details/dashboard-page/index.tsx"
+    },
+    {
+      "name": "Dashboard error handling",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/use-dashboard.tsx"
+    },
+    {
+      "name": "Dashboard error display",
+      "status": "FAIL",
+      "details": "Content not found in src/components/pages-details/dashboard-page/index.tsx"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+	"page_title": "Dashboard",
+	"page_description": "Manage your account and orders",
+	"sidebar": {
+		"dashboard": "Dashboard",
+		"profile": "Profile",
+		"orders": "Orders",
+		"wishlist": "Wishlist",
+		"addresses": "Addresses",
+		"settings": "Settings",
+		"logout": "Logout"
+	},
+	"overview": {
+		"title": "Overview",
+		"welcome_back": "Welcome back",
+		"total_orders": "Total Orders",
+		"pending_orders": "Pending Orders",
+		"completed_orders": "Completed Orders",
+		"total_spent": "Total Spent",
+		"wishlist_items": "Wishlist Items",
+		"recent_activity": "Recent Activity"
+	},
+	"profile": {
+		"title": "Profile",
+		"personal_info": "Personal Information",
+		"contact_info": "Contact Information",
+		"edit_profile": "Edit Profile",
+		"save_changes": "Save Changes",
+		"cancel_changes": "Cancel Changes",
+		"profile_updated": "Profile updated successfully",
+		"first_name": "First Name",
+		"last_name": "Last Name",
+		"email": "Email Address",
+		"phone": "Phone Number",
+		"date_of_birth": "Date of Birth",
+		"gender": "Gender",
+		"male": "Male",
+		"female": "Female",
+		"other": "Other",
+		"prefer_not_to_say": "Prefer not to say"
+	},
+	"orders": {
+		"title": "Orders",
+		"order_history": "Order History",
+		"order_number": "Order Number",
+		"order_date": "Order Date",
+		"order_status": "Order Status",
+		"order_total": "Order Total",
+		"order_details": "Order Details",
+		"track_order": "Track Order",
+		"cancel_order": "Cancel Order",
+		"return_order": "Return Order",
+		"reorder": "Reorder",
+		"no_orders": "No orders found",
+		"status": {
+			"pending": "Pending",
+			"processing": "Processing",
+			"shipped": "Shipped",
+			"delivered": "Delivered",
+			"cancelled": "Cancelled",
+			"returned": "Returned"
+		}
+	},
+	"wishlist": {
+		"title": "Wishlist",
+		"my_wishlist": "My Wishlist",
+		"add_to_cart": "Add to Cart",
+		"remove_from_wishlist": "Remove from Wishlist",
+		"move_to_cart": "Move to Cart",
+		"clear_wishlist": "Clear Wishlist",
+		"empty_wishlist": "Wishlist is empty",
+		"add_items": "Add items to wishlist"
+	},
+	"addresses": {
+		"title": "Addresses",
+		"shipping_addresses": "Shipping Addresses",
+		"billing_addresses": "Billing Addresses",
+		"add_new_address": "Add New Address",
+		"edit_address": "Edit Address",
+		"delete_address": "Delete Address",
+		"set_default": "Set as Default",
+		"default": "Default",
+		"no_addresses": "No saved addresses",
+		"address_type": "Address Type",
+		"address_line1": "Address Line 1",
+		"address_line2": "Address Line 2",
+		"city": "City",
+		"state": "State/Province",
+		"country": "Country",
+		"postal_code": "Postal Code",
+		"phone": "Phone Number"
+	},
+	"settings": {
+		"title": "Settings",
+		"account_settings": "Account Settings",
+		"security_settings": "Security Settings",
+		"notification_settings": "Notification Settings",
+		"privacy_settings": "Privacy Settings",
+		"language_settings": "Language Settings",
+		"currency_settings": "Currency Settings",
+		"change_password": "Change Password",
+		"current_password": "Current Password",
+		"new_password": "New Password",
+		"confirm_password": "Confirm Password",
+		"password_changed": "Password changed successfully"
+	},
+	"notifications": {
+		"title": "Notifications",
+		"email_notifications": "Email Notifications",
+		"sms_notifications": "SMS Notifications",
+		"push_notifications": "Push Notifications",
+		"order_updates": "Order Updates",
+		"promotional_emails": "Promotional Emails",
+		"newsletter": "Newsletter",
+		"save_preferences": "Save Preferences"
+	},
+	"security": {
+		"title": "Security",
+		"two_factor_auth": "Two-Factor Authentication",
+		"login_history": "Login History",
+		"active_sessions": "Active Sessions",
+		"revoke_session": "Revoke Session",
+		"password_history": "Password History",
+		"security_questions": "Security Questions"
+	},
+	"seo": {
+		"meta_title": "Dashboard - Coffee Selection",
+		"meta_description": "Manage your account, orders, and personal information",
+		"keywords": "dashboard, my account, orders, profile"
+	}
+}

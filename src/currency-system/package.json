@@ -1,0 +1,43 @@
+{
+	"name": "@coffee-selection/currency-system",
+	"version": "1.0.0",
+	"description": "نظام العملات المتكامل والشامل مع التخزين المؤقت الذكي والأسعار الاحتياطية",
+	"main": "index.ts",
+	"types": "index.ts",
+	"keywords": [
+		"currency",
+		"exchange-rates",
+		"caching",
+		"fallback",
+		"api",
+		"typescript",
+		"react",
+		"nextjs"
+	],
+	"author": "Coffee Selection Team",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^18.0.0",
+		"next": "^14.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.0",
+		"@types/node": "^20.0.0",
+		"typescript": "^5.0.0"
+	},
+	"peerDependencies": {
+		"react": "^18.0.0",
+		"next": "^14.0.0"
+	},
+	"files": [
+		"types/",
+		"config/",
+		"services/",
+		"hooks/",
+		"context/",
+		"components/",
+		"api/",
+		"index.ts",
+		"README.md"
+	]
+}

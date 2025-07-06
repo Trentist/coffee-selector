@@ -1,0 +1,156 @@
+{
+  "confirmations": {
+    "delete_item": {
+      "title": "Confirm Delete",
+      "message": "Are you sure you want to delete this item?",
+      "description": "This action cannot be undone"
+    },
+    "cancel_order": {
+      "title": "Cancel Order Confirmation",
+      "message": "Are you sure you want to cancel this order?",
+      "description": "This action cannot be undone"
+    },
+    "clear_cart": {
+      "title": "Clear Cart Confirmation",
+      "message": "Are you sure you want to clear the cart?",
+      "description": "All items will be removed from cart"
+    },
+    "clear_wishlist": {
+      "title": "Clear Wishlist Confirmation",
+      "message": "Are you sure you want to clear the wishlist?",
+      "description": "All items will be removed from wishlist"
+    },
+    "delete_address": {
+      "title": "Delete Address Confirmation",
+      "message": "Are you sure you want to delete this address?",
+      "description": "Address will be permanently deleted"
+    },
+    "logout": {
+      "title": "Logout Confirmation",
+      "message": "Are you sure you want to logout?",
+      "description": "Your session will be closed"
+    },
+    "unsaved_changes": {
+      "title": "Unsaved Changes",
+      "message": "You have unsaved changes",
+      "description": "Do you want to continue without saving changes?"
+    }
+  },
+  "warnings": {
+    "low_stock": {
+      "title": "Low Stock",
+      "message": "Available quantity for this product is low",
+      "description": "We recommend ordering soon to avoid stock depletion"
+    },
+    "address_required": {
+      "title": "Address Required",
+      "message": "Please provide a valid address",
+      "description": "Address is required to complete the order"
+    },
+    "cart_expiring": {
+      "title": "Cart Expiring",
+      "message": "Your cart will expire soon",
+      "description": "Items will be removed from cart"
+    },
+    "payment_required": {
+      "title": "Payment Required",
+      "message": "Please complete payment",
+      "description": "Payment is required to process your order"
+    },
+    "session_expiring": {
+      "title": "Session Expiring",
+      "message": "Your session will expire soon",
+      "description": "Please save your work or login again"
+    }
+  },
+  "errors": {
+    "network_error": {
+      "title": "Network Error",
+      "message": "Failed to connect to server",
+      "description": "Please check your internet connection and try again"
+    },
+    "file_too_large": {
+      "title": "File Too Large",
+      "message": "The file size exceeds the maximum limit",
+      "description": "Please choose a smaller file"
+    },
+    "invalid_file_type": {
+      "title": "Invalid File Type",
+      "message": "This file type is not supported",
+      "description": "Please choose a supported file format"
+    },
+    "permission_error": {
+      "title": "Permission Error",
+      "message": "You do not have permission to perform this action",
+      "description": "Please contact administrator"
+    },
+    "server_error": {
+      "title": "Server Error",
+      "message": "An error occurred on the server",
+      "description": "Please try again later"
+    },
+    "validation_error": {
+      "title": "Validation Error",
+      "message": "Please check your input",
+      "description": "Some fields contain invalid data"
+    }
+  },
+  "success": {
+    "operation_completed": {
+      "title": "Operation Completed",
+      "message": "Operation completed successfully",
+      "description": "You can continue now"
+    },
+    "data_saved": {
+      "title": "Data Saved",
+      "message": "Data saved successfully",
+      "description": "All changes have been saved"
+    },
+    "order_placed": {
+      "title": "Order Placed",
+      "message": "Your order has been confirmed successfully",
+      "description": "You will receive an email confirmation"
+    },
+    "payment_successful": {
+      "title": "Payment Successful",
+      "message": "Payment completed successfully",
+      "description": "Your order will be processed soon"
+    }
+  },
+  "actions": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "dismiss": "Dismiss",
+    "continue": "Continue",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "save": "Save",
+    "update": "Update",
+    "view_details": "View Details"
+  },
+  "info": {
+    "title": "Information",
+    "default": "Important information",
+    "maintenance": {
+      "title": "Scheduled Maintenance",
+      "message": "System maintenance is scheduled",
+      "description": "You may experience temporary service interruption"
+    },
+    "new_features": {
+      "title": "New Features",
+      "message": "New features have been added",
+      "description": "Discover new features in the application"
+    },
+    "order_status": {
+      "title": "Order Status Update",
+      "message": "Your order status has been updated",
+      "description": "You can track your order in the orders page"
+    },
+    "update_available": {
+      "title": "Update Available",
+      "message": "A new update is available for the application",
+      "description": "It is recommended to update the application for the best experience"
+    }
+  }
+}

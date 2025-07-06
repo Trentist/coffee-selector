@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-06-29T23:45:33.202Z",
+  "tests": {
+    "products": {
+      "success": false,
+      "errors": [
+        {
+          "message": "Cannot query field 'id' on type 'Products'.",
+          "locations": [
+            {
+              "line": 4,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'name' on type 'Products'.",
+          "locations": [
+            {
+              "line": 5,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'price' on type 'Products'. Did you mean 'maxPrice' or 'minPrice'?",
+          "locations": [
+            {
+              "line": 6,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'description' on type 'Products'.",
+          "locations": [
+            {
+              "line": 7,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'image' on type 'Products'.",
+          "locations": [
+            {
+              "line": 8,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'categories' on type 'Products'.",
+          "locations": [
+            {
+              "line": 9,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'inStock' on type 'Products'.",
+          "locations": [
+            {
+              "line": 13,
+              "column": 11
+            }
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "success": false,
+      "errors": [
+        {
+          "message": "Cannot query field 'id' on type 'Categories'.",
+          "locations": [
+            {
+              "line": 4,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'name' on type 'Categories'.",
+          "locations": [
+            {
+              "line": 5,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'slug' on type 'Categories'.",
+          "locations": [
+            {
+              "line": 6,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "message": "Cannot query field 'description' on type 'Categories'.",
+          "locations": [
+            {
+              "line": 7,
+              "column": 11
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalTests": 2,
+    "passedTests": 0,
+    "failedTests": 2
+  }
+}

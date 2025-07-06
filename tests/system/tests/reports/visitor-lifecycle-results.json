@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-06-29T23:53:19.567Z",
+  "testType": "Visitor Lifecycle",
+  "summary": {
+    "passed": 26,
+    "failed": 8,
+    "total": 34,
+    "successRate": "76.5"
+  },
+  "details": [
+    {
+      "name": "Homepage exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Main layout exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Shop page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Product card component exists",
+      "status": "FAIL",
+      "details": "File src/components/shared/product-card/index.tsx does not exist"
+    },
+    {
+      "name": "Products hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Products use GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useOdooProducts.ts"
+    },
+    {
+      "name": "Product details page exists",
+      "status": "FAIL",
+      "details": "File src/pages/store/product/[slug].tsx does not exist"
+    },
+    {
+      "name": "Product page has SSR",
+      "status": "FAIL",
+      "details": "File src/pages/store/product/[slug].tsx does not exist"
+    },
+    {
+      "name": "Categories component exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Categories GraphQL queries exist",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Advanced search component exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Search has state management",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Language switcher exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Translation hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Translation system integrated",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useUnifiedTranslation.ts"
+    },
+    {
+      "name": "Unified price component exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Currency uses GraphQL",
+      "status": "FAIL",
+      "details": "Content not found in src/currency-system/hooks/useCurrency.ts"
+    },
+    {
+      "name": "Cart hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cart items component exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Cart persists locally for guests",
+      "status": "FAIL",
+      "details": "Content not found in src/hooks/useOdooCart.ts"
+    },
+    {
+      "name": "Favorites hook exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Favorites context exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Contact page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Contact page renderer exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "About page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "About page renderer exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Terms page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Terms component exists",
+      "status": "FAIL",
+      "details": "File src/components/pages-details/terms-and-conditions/index.tsx does not exist"
+    },
+    {
+      "name": "Privacy page exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Breakpoints configuration exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Theme components exist",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Next.js configuration exists",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Image optimization configured",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

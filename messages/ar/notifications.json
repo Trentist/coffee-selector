@@ -1,0 +1,150 @@
+{
+	"success": {
+		"title": "نجاح",
+		"default": "تمت العملية بنجاح",
+		"cart": {
+			"added": "تمت إضافة المنتج إلى السلة",
+			"removed": "تم إزالة المنتج من السلة",
+			"updated": "تم تحديث السلة",
+			"cleared": "تم مسح السلة",
+			"item_moved_to_wishlist": "تم نقل المنتج إلى المفضلة"
+		},
+		"order": {
+			"placed": "تم تأكيد الطلب بنجاح",
+			"updated": "تم تحديث الطلب",
+			"cancelled": "تم إلغاء الطلب",
+			"returned": "تم إرجاع الطلب"
+		},
+		"auth": {
+			"login": "تم تسجيل الدخول بنجاح",
+			"register": "تم إنشاء الحساب بنجاح",
+			"logout": "تم تسجيل الخروج بنجاح",
+			"password_changed": "تم تغيير كلمة المرور بنجاح",
+			"password_reset": "تم إرسال رابط إعادة تعيين كلمة المرور"
+		},
+		"profile": {
+			"updated": "تم تحديث الملف الشخصي",
+			"address_added": "تم إضافة العنوان بنجاح",
+			"address_updated": "تم تحديث العنوان بنجاح",
+			"address_deleted": "تم حذف العنوان بنجاح"
+		},
+		"wishlist": {
+			"added": "تمت إضافة المنتج إلى المفضلة",
+			"removed": "تم إزالة المنتج من المفضلة",
+			"cleared": "تم مسح المفضلة"
+		},
+		"payment": {
+			"successful": "تم الدفع بنجاح",
+			"method_saved": "تم حفظ طريقة الدفع",
+			"method_deleted": "تم حذف طريقة الدفع"
+		},
+		"newsletter": {
+			"subscribed": "تم الاشتراك في النشرة البريدية بنجاح",
+			"unsubscribed": "تم إلغاء الاشتراك من النشرة البريدية"
+		}
+	},
+	"error": {
+		"title": "خطأ",
+		"default": "حدث خطأ ما",
+		"network": "خطأ في الاتصال بالشبكة",
+		"validation": "يرجى التحقق من البيانات المدخلة",
+		"server": "خطأ في الخادم",
+		"timeout": "انتهت مهلة الطلب",
+		"unauthorized": "غير مصرح لك بالوصول",
+		"forbidden": "ممنوع الوصول",
+		"not_found": "المورد غير موجود",
+		"cart": {
+			"add_failed": "فشل في إضافة المنتج إلى السلة",
+			"remove_failed": "فشل في إزالة المنتج من السلة",
+			"update_failed": "فشل في تحديث السلة",
+			"clear_failed": "فشل في مسح السلة"
+		},
+		"order": {
+			"place_failed": "فشل في تأكيد الطلب",
+			"update_failed": "فشل في تحديث الطلب",
+			"cancel_failed": "فشل في إلغاء الطلب"
+		},
+		"auth": {
+			"login_failed": "فشل في تسجيل الدخول",
+			"register_failed": "فشل في إنشاء الحساب",
+			"password_change_failed": "فشل في تغيير كلمة المرور",
+			"password_reset_failed": "فشل في إرسال رابط إعادة التعيين"
+		},
+		"profile": {
+			"update_failed": "فشل في تحديث الملف الشخصي",
+			"address_add_failed": "فشل في إضافة العنوان",
+			"address_update_failed": "فشل في تحديث العنوان",
+			"address_delete_failed": "فشل في حذف العنوان"
+		},
+		"payment": {
+			"failed": "فشل في الدفع",
+			"method_save_failed": "فشل في حفظ طريقة الدفع",
+			"method_delete_failed": "فشل في حذف طريقة الدفع"
+		}
+	},
+	"warning": {
+		"title": "تحذير",
+		"default": "يرجى الانتباه",
+		"session": {
+			"expiring": "ستنتهي جلستك قريباً",
+			"inactive": "هل ما زلت متصلاً؟",
+			"expired": "انتهت جلستك"
+		},
+		"cart": {
+			"expired": "ستنتهي صلاحية السلة قريباً",
+			"items_removed": "تمت إزالة بعض المنتجات من السلة",
+			"stock_low": "الكمية المتوفرة منخفضة"
+		},
+		"order": {
+			"cancellation": "لا يمكن إلغاء الطلب بعد الآن",
+			"return_deadline": "انتهت مهلة إرجاع الطلب"
+		},
+		"payment": {
+			"card_expiring": "بطاقتك ستنتهي صلاحيتها قريباً",
+			"insufficient_funds": "رصيد غير كافي"
+		}
+	},
+	"info": {
+		"title": "معلومات",
+		"default": "معلومات هامة",
+		"cart": {
+			"empty": "السلة فارغة",
+			"processing": "جاري معالجة طلبك",
+			"items_count": "{{count}} منتج في السلة"
+		},
+		"order": {
+			"processing": "جاري معالجة طلبك",
+			"shipping": "تم شحن طلبك",
+			"delivered": "تم توصيل طلبك",
+			"tracking_available": "يمكنك تتبع طلبك الآن"
+		},
+		"profile": {
+			"verification_required": "يرجى التحقق من بريدك الإلكتروني",
+			"profile_incomplete": "ملفك الشخصي غير مكتمل"
+		},
+		"system": {
+			"maintenance": "سيتم إجراء صيانة للنظام",
+			"update_available": "يتوفر تحديث جديد"
+		}
+	},
+	"actions": {
+		"dismiss": "إغلاق",
+		"retry": "إعادة المحاولة",
+		"view_details": "عرض التفاصيل",
+		"continue": "متابعة",
+		"cancel": "إلغاء",
+		"confirm": "تأكيد",
+		"save": "حفظ",
+		"delete": "حذف",
+		"edit": "تعديل",
+		"add": "إضافة"
+	},
+	"time": {
+		"just_now": "الآن",
+		"minutes_ago": "منذ {{count}} دقيقة",
+		"hours_ago": "منذ {{count}} ساعة",
+		"days_ago": "منذ {{count}} يوم",
+		"weeks_ago": "منذ {{count}} أسبوع",
+		"months_ago": "منذ {{count}} شهر"
+	}
+}

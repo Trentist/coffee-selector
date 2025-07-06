@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-29T23:48:52.818Z",
+  "tests": {
+    "files": {
+      "foundFiles": [
+        "public/locales/ar/common.json",
+        "public/locales/en/common.json"
+      ],
+      "missingFiles": [
+        "src/locales/ar/common.json",
+        "src/locales/en/common.json"
+      ],
+      "success": true
+    },
+    "content": [
+      {
+        "file": "public/locales/ar/common.json",
+        "keyCount": 209,
+        "sampleKeys": [
+          "navigation",
+          "footer",
+          "home_page",
+          "about",
+          "notifications"
+        ],
+        "valid": true
+      },
+      {
+        "file": "public/locales/en/common.json",
+        "keyCount": 209,
+        "sampleKeys": [
+          "navigation",
+          "footer",
+          "home_page",
+          "about",
+          "notifications"
+        ],
+        "valid": true
+      }
+    ],
+    "config": true
+  },
+  "summary": {
+    "filesFound": 2,
+    "contentValid": 2,
+    "configExists": true,
+    "overallStatus": "GOOD"
+  }
+}

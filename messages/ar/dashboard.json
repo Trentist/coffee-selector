@@ -1,0 +1,131 @@
+{
+	"page_title": "لوحة التحكم",
+	"page_description": "إدارة حسابك وطلباتك",
+	"sidebar": {
+		"dashboard": "لوحة التحكم",
+		"profile": "الملف الشخصي",
+		"orders": "الطلبات",
+		"wishlist": "المفضلة",
+		"addresses": "العناوين",
+		"settings": "الإعدادات",
+		"logout": "تسجيل الخروج"
+	},
+	"overview": {
+		"title": "نظرة عامة",
+		"welcome_back": "مرحباً بعودتك",
+		"total_orders": "إجمالي الطلبات",
+		"pending_orders": "الطلبات المعلقة",
+		"completed_orders": "الطلبات المكتملة",
+		"total_spent": "إجمالي الإنفاق",
+		"wishlist_items": "عناصر المفضلة",
+		"recent_activity": "النشاط الأخير"
+	},
+	"profile": {
+		"title": "الملف الشخصي",
+		"personal_info": "المعلومات الشخصية",
+		"contact_info": "معلومات الاتصال",
+		"edit_profile": "تعديل الملف الشخصي",
+		"save_changes": "حفظ التغييرات",
+		"cancel_changes": "إلغاء التغييرات",
+		"profile_updated": "تم تحديث الملف الشخصي بنجاح",
+		"first_name": "الاسم الأول",
+		"last_name": "الاسم الأخير",
+		"email": "البريد الإلكتروني",
+		"phone": "رقم الهاتف",
+		"date_of_birth": "تاريخ الميلاد",
+		"gender": "الجنس",
+		"male": "ذكر",
+		"female": "أنثى",
+		"other": "آخر",
+		"prefer_not_to_say": "أفضل عدم الإفصاح"
+	},
+	"orders": {
+		"title": "الطلبات",
+		"order_history": "تاريخ الطلبات",
+		"order_number": "رقم الطلب",
+		"order_date": "تاريخ الطلب",
+		"order_status": "حالة الطلب",
+		"order_total": "إجمالي الطلب",
+		"order_details": "تفاصيل الطلب",
+		"track_order": "تتبع الطلب",
+		"cancel_order": "إلغاء الطلب",
+		"return_order": "إرجاع الطلب",
+		"reorder": "إعادة الطلب",
+		"no_orders": "لا توجد طلبات",
+		"status": {
+			"pending": "معلق",
+			"processing": "قيد المعالجة",
+			"shipped": "تم الشحن",
+			"delivered": "تم التوصيل",
+			"cancelled": "ملغي",
+			"returned": "مرتجع"
+		}
+	},
+	"wishlist": {
+		"title": "المفضلة",
+		"my_wishlist": "مفضلتي",
+		"add_to_cart": "إضافة إلى السلة",
+		"remove_from_wishlist": "إزالة من المفضلة",
+		"move_to_cart": "نقل إلى السلة",
+		"clear_wishlist": "مسح المفضلة",
+		"empty_wishlist": "قائمة المفضلة فارغة",
+		"add_items": "أضف منتجات إلى المفضلة"
+	},
+	"addresses": {
+		"title": "العناوين",
+		"shipping_addresses": "عناوين الشحن",
+		"billing_addresses": "عناوين الفواتير",
+		"add_new_address": "إضافة عنوان جديد",
+		"edit_address": "تعديل العنوان",
+		"delete_address": "حذف العنوان",
+		"set_default": "تعيين كافتراضي",
+		"default": "افتراضي",
+		"no_addresses": "لا توجد عناوين محفوظة",
+		"address_type": "نوع العنوان",
+		"address_line1": "العنوان السطر الأول",
+		"address_line2": "العنوان السطر الثاني",
+		"city": "المدينة",
+		"state": "المنطقة/المحافظة",
+		"country": "الدولة",
+		"postal_code": "الرمز البريدي",
+		"phone": "رقم الهاتف"
+	},
+	"settings": {
+		"title": "الإعدادات",
+		"account_settings": "إعدادات الحساب",
+		"security_settings": "إعدادات الأمان",
+		"notification_settings": "إعدادات الإشعارات",
+		"privacy_settings": "إعدادات الخصوصية",
+		"language_settings": "إعدادات اللغة",
+		"currency_settings": "إعدادات العملة",
+		"change_password": "تغيير كلمة المرور",
+		"current_password": "كلمة المرور الحالية",
+		"new_password": "كلمة المرور الجديدة",
+		"confirm_password": "تأكيد كلمة المرور",
+		"password_changed": "تم تغيير كلمة المرور بنجاح"
+	},
+	"notifications": {
+		"title": "الإشعارات",
+		"email_notifications": "إشعارات البريد الإلكتروني",
+		"sms_notifications": "إشعارات الرسائل النصية",
+		"push_notifications": "الإشعارات الفورية",
+		"order_updates": "تحديثات الطلبات",
+		"promotional_emails": "رسائل ترويجية",
+		"newsletter": "النشرة البريدية",
+		"save_preferences": "حفظ التفضيلات"
+	},
+	"security": {
+		"title": "الأمان",
+		"two_factor_auth": "المصادقة الثنائية",
+		"login_history": "تاريخ تسجيل الدخول",
+		"active_sessions": "الجلسات النشطة",
+		"revoke_session": "إلغاء الجلسة",
+		"password_history": "تاريخ كلمات المرور",
+		"security_questions": "أسئلة الأمان"
+	},
+	"seo": {
+		"meta_title": "لوحة التحكم - Coffee Selection",
+		"meta_description": "إدارة حسابك وطلباتك ومعلوماتك الشخصية",
+		"keywords": "لوحة التحكم، حسابي، طلباتي، ملف شخصي"
+	}
+}
