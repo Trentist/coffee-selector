@@ -2,7 +2,7 @@
  * Display Service - خدمة العرض
  * خدمة شاملة لعرض المنتجات والفئات مع جميع الاستعلامات العاملة
  */
-import { getServerApolloClient } from "./lib/apolloServer";
+
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import { gql } from "@apollo/client";
@@ -451,8 +451,7 @@ export class DisplayService {
 	private client: ApolloClient<any>;
 
 	constructor(client?: ApolloClient<any>) {
-		
-		this.client = client || getServerApolloClient();
+		this.client = client || displayApolloClient;
 	}
 
 	// ============================================================================
@@ -537,6 +536,7 @@ export class DisplayService {
 	 * الحصول على جميع المنتجات
 	 */
 async getAllProducts(): Promise<ProductsApiResponse> {
+	console.log("[Apollo] Fetching all products from Odoo...");
 	try {
 		const response = await this.client.query({
 			query: GET_ALL_PRODUCTS,

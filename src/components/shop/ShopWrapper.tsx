@@ -56,6 +56,7 @@ const ShopWrapper: React.FC<ShopWrapperProps> = ({
 	// ============================================================================
 	// STATE MANAGEMENT - إدارة الحالة
 	// ============================================================================
+    console.log("ShopWrapper rendered with products:", products);
 	const [filterState, setFilterState] = useState<FilterState>({
 		activeFilters: {},
 		productCount: products.length,
