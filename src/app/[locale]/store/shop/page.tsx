@@ -4,7 +4,7 @@ import { ShopWrapper } from "@/components/shop";
 
 // Server Component: fetch data on the server
 export default async function ShopPage() {
-	// جلب البيانات من النظام الجديد الموحد
+	console.log("Fetching products and categories for the shop page...");
 	const productsResult = await displayService.getAllProducts();
 	const categoriesResult = await categoryProductService.getAllCategories();
 	const products = productsResult.success ? productsResult.data || [] : [];

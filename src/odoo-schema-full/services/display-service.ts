@@ -536,6 +536,7 @@ export class DisplayService {
 	 * الحصول على جميع المنتجات
 	 */
 async getAllProducts(): Promise<ProductsApiResponse> {
+	console.log("[Apollo] Fetching all products from Odoo...");
 	try {
 		const response = await this.client.query({
 			query: GET_ALL_PRODUCTS,
